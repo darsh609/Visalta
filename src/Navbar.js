@@ -15,31 +15,31 @@ export const Navbar=()=> {
       
       <div className=" flex flex-row justify-between mt-8">
         <div className='ml-16'>
-            <div>
+            <div className="font-sans text-4xl">
             VISALTA
             </div>
-            <div>
+            <div class="font-sans text-s">
                 nitw
             </div>
             <div>
-              Navigating students life
+             
             </div>
             
         </div>
-        <div className='flex flex-row gap-16 ' >
-            <div>
+        <div className=' flex flex-row gap-16 ' >
+            <button className='mb-10 text-xl'>
                 Home
-            </div>
-            <div>
+            </button>
+            <button className='mb-10 text-xl'>
                 Explore
-            </div>
-            <div>
+            </button>
+            <button className='mb-10 text-xl'>
                 About
-            </div>
+            </button>
         </div>
-        <div className='mr-24' onClick={handleclick}>
+        <button className='mr-24 mb-10 text-s border-black border rounded' onClick={handleclick}>
             Login
-        </div>
+        </button>
       </div>
       </div>
     )
