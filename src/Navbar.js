@@ -1,19 +1,32 @@
 import React, { Component } from 'react'
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
-export class Navbar extends Component {
-  render() {
+
+
+export const Navbar=()=> {
+  const navigate=useNavigate();
+  function handleclick(){
+    navigate("/signup")
+  }
+  
     return (
-      <div>
-        <div>
+      <div className="bg-gray-500">
+
+      
+      <div className=" flex flex-row justify-between mt-8">
+        <div className='ml-16'>
             <div>
             VISALTA
             </div>
             <div>
                 nitw
             </div>
+            <div>
+              Navigating students life
+            </div>
             
         </div>
-        <div>
+        <div className='flex flex-row gap-16' >
             <div>
                 Home
             </div>
@@ -24,12 +37,13 @@ export class Navbar extends Component {
                 About
             </div>
         </div>
-        <div>
+        <div className='mr-24' onClick={handleclick}>
             Login
         </div>
       </div>
+      </div>
     )
   }
-}
+
 
 export default Navbar
