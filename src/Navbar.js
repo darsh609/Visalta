@@ -10,7 +10,7 @@ export const Navbar=()=> {
   }
   
     return (
-      <div className="bg-gray-500">
+      <div className="bg-[#891F49]">
 
       
       <div className=" flex flex-row justify-between mt-8">
@@ -26,7 +26,7 @@ export const Navbar=()=> {
             </div>
             
         </div>
-        <div className='flex flex-row gap-16' >
+        <div className='flex flex-row gap-16 ' >
             <div>
                 Home
             </div>
