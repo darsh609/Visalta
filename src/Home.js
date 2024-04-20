@@ -6,8 +6,8 @@ export const Home = () => {
     <div>
       <div > 
         <div className="relative" >
-          <img src={nitw} className="opacity-50"></img>
-          <div className="font-extrabold absolute left-50 top-50 " >
+          <img src={nitw} className="opacity-50 "></img>
+          <div className="absolute top-60 left-1/2 font-bold -left-3" >
           HLOO VISALTA 
         </div>
         </div>
