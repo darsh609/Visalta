@@ -9,6 +9,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="signup" element={<Login/>}/>
+      <Route path="/" element={<Home/>}/>
 
       
     </Routes>
