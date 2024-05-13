@@ -4,7 +4,7 @@ export const Login = () => {
   return (
     <div>
         <div>
-            Signup here lodu
+            Signup here 
         </div>
     </div>
   )
