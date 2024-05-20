@@ -1,10 +1,84 @@
 [
     {
-        "name":"Multi-Cuissine",
-        "cost":"cheap",
-        "type":"Family Restaurant",
-        "Birthday-party":"Yes",
-        "Non-Veg":"Yes"
+        "Name":"Multi-Cuissine",
+        "Budget":"Affordable",
+        "Category":"Family Restaurant",
+        "Party-Affordable":"Yes",
+        "Non-Veg":"Yes",
+        "Biryani-Special":"Yes",
+        "Pure-veg":"No",
+        "Shawarma-Special":"No",
+        "Mess":"No",
+        "Tiffins":"No",
+        "Break-fast":"No",
+        "Seafood":"No",
+        "Non-Veg Special":"No",
+        "Bakery-Items":"No",
+        "Shakes":"No",
+        "Lassi":"No",
+        "North-Indian":"No",
+        "South-Indian":"Yes",
+        "Punjabi-Indian":"No",
+        "Cafe":"No",
+        "Deserts":"No",
+        "Ice-Creams":"No",
+        "Favourite":"No",
+        "Chinese":"Yes",
+        "Western":"No",
+        "Campus-choice":"Yes",
+        "Buffet":"No",
+        "Meals":"Yes",
+        "Timing":"10AM-11PM",
+        "Cold-Drink":"Yes",
+        "Visit":"https://g.co/kgs/CETgyRT"
+    
+
+
+
+
 
     }
+    {
+        "Name":"Tazza-Tiffin",
+        "Budget":"Affordable",
+        "Category":"Family Restaurant",
+        "Party-Affordable":"No",
+        "Non-Veg":"No",
+        "Biryani-Special":"No",
+        "Pure-veg":"Yes",
+        "Shawarma-Special":"No",
+        "Mess":"No",
+        "Tiffin":"Yes",
+        "Breakfast":"Yes",
+        "Seafood":"No",
+        "Non-Veg Special":"No",
+        "Bakery-Items":"No",
+        "Shakes":"Yes",
+        "Lassi":"No",
+        "North-Indian":"No",
+        "South-Indian":"Yes",
+        "Punjabi-Indian":"No",
+        "Cafe":"No",
+        "Deserts":"No",
+        "Ice-Creams":"No",
+        "Favourite":"Yes",
+        "Chinese":"No",
+        "Western":"No",
+        "Campus-choice":"Yes",
+        "Buffet":"No",
+        "Meals":"Yes",
+        "Timing":"9AM-10PM",
+        "Cold-Drink":"No",
+        "Visit":"https://g.co/kgs/CETgyRT"
+    
+
+
+
+
+
+    }
+    {
+
+    }
+
 ]
