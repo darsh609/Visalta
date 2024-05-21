@@ -7,6 +7,7 @@ import Food from "./servicespage/food"
 import Travel from "./servicespage/travel"
 import Medical from "./servicespage/medical"
 import Worship from "./servicespage/worship"
+import Foodfil from "./servicespage/foodfil";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="worship" element={<Worship/>}/>
       <Route path="travel" element={<Travel/>}/>
       <Route path="medical" element={<Medical/>}/>
+      <Route path="food/filters" element={<Foodfil/>}/>
 
 
       
