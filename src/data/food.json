@@ -75,7 +75,331 @@
 
 
 
-    }
+    },
+
+
+    {
+        "Name":"AROMA FINE DINE RESTAURANT",
+              "Visit":"https://g.co/kgs/CETgyRT",
+        "Timing":"11:30AM-11:30PM",
+        "filters":[ 
+        "Expensive",
+        "Family Restaurant",
+    
+             
+    "Non-Veg",
+    "Veg"
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    "Chinese",
+    "Sea Food Special",
+    "Milkshakes",
+    "Cold-Drink" ,
+    "Reasonable prices"
+    "banquet hall Too",
+    "Nearby(CMR-Shooping Mall)"
+       ]
+          
+    
+    
+    
+    
+    
+    },
+
+    {
+        "Name":"Heart-spot",
+              "Visit":"https://maps.app.goo.gl/6tsFcQ7RKKmeYbXP9",
+        "Timing":"7AM-12AM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+    "Tiffin",
+    "Chaat",
+    "North Indian",
+    "Soups",
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    "Chinese",
+    
+    "Campus-choice",
+    
+    "Meals",
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+    {
+        "Name":"Kadai",
+              "Visit":"https://g.co/kgs/CETgyRT",
+        "Timing":"10AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+           
+    "Non-Veg",
+    "Veg",
+    
+    "North Indian",
+    "Ice Cream",
+    ""
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    "Chinese",
+    
+    "Campus-choice",
+    
+    "Meals",
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+    {
+        "Name":"Kitchen 1970's",
+              "Visit":"https://maps.app.goo.gl/7NqazemuaAsD4SBq8",
+        "Timing":"10AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+    "Deserts",
+    "Combo's",
+    ""
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    "Campus-choice",
+    
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+
+    {
+        "Name":"Paradise Biryani",
+              "Visit":"https://maps.app.goo.gl/nAy31fBGcgUirztu6",
+        "Timing":"11AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Deserts",
+    "Combo's",
+    "Special sweets",
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    "Campus-choice",
+    
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+    
+    {
+        "Name":"Pizza Hut",
+              "Visit":"https://g.co/kgs/CETgyRT",
+        "Timing":"10AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+    "Shakes",
+    "Western",
+    ""
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    
+    "Campus-choice",
+    "Ice Cream",
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+    {
+        "Name":"Platform 65-The train Theme",
+              "Visit":"https://maps.app.goo.gl/Ru9XptVjG3KekxCf9",
+        "Timing":"10AM-11PM",
+        "filters":[ 
+        "Expensive",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+    "Special Sea food",
+    "Ice Cream",
+    "sweets",
+    "Milkshakes",
+    "Kids Specials",
+    
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    "Chinese",
+    
+    "Campus-choice",
+    
+    "Meals",
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+    {
+    
+
+
+        
+        "Name":"President Dhaba",
+       
+        "Timing":"12.30PM-10.30PM",
+       
+        "Visit":"https://g.co/kgs/CETgyRT",
+    
+    
+        
+        
+    
+    "filters":[ 
+    "Party-Affordable",
+    "Family Restaurant",
+    
+       "Biryani-Special",
+       "Cold-Drink",
+       "Chinese",
+       ""
+       "Favourite",
+       "Veg|non-Veg",
+    
+    
+    "South-Indian",
+    
+    ]
+
+    },
+
+
+    {
+        "Name":"St.mary Bakery",
+              "Visit":"https://g.co/kgs/CETgyRT",
+        "Timing":"10AM-11PM",
+        "filters":[ 
+        "Affordable",
+    
+             "Party-Affordable" ,
+    
+    "Campus-choice",
+    
+    "Ice Cream",
+    "Deserts",
+    "Bakery-items",
+    
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+    },
+
+    {
+        "Name":"Zamindar Restaurant",
+              "Visit":"https://maps.app.goo.gl/1bXatBxnpwevWQnu9",
+        "Timing":"12PM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+    "Soups",
+    "Thali System",
+    "Kids Special",
+    
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    "Chinese",
+    
+    "Campus-choice",
+    
+    "Meals",
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+    },
+
+
+    
+          
+    
+    
+
+    
+
+
+    
+
+
+
+    
+        
+
+
+
+
 
     
 
