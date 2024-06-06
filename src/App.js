@@ -21,8 +21,6 @@ function App() {
       <Route path="travel" element={<Travel/>}/>
       <Route path="medical" element={<Medical/>}/>
       <Route path="food/filters" element={<Foodfil/>}/>
-
-
       
     </Routes>
 

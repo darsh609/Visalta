@@ -1,6 +1,6 @@
-import { click } from '@testing-library/user-event/dist/click';
+// import { click } from '@testing-library/user-event/dist/click';
 import React, { useEffect, useState } from 'react'
-import { RxCross1 } from "react-icons/rx";
+// import { RxCross1 } from "react-icons/rx";
 export const Sidebar = (props) => {
     let restaurants=props.restaurants
     let allfilt=props.allfilt
@@ -123,7 +123,7 @@ console.log(v)
               `}
               onClick={()=>remove(data.title)}
    >
-             <RxCross1/>
+             {/* <RxCross1/> */}
 
              </button>
              
