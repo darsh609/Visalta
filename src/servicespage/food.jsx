@@ -1,5 +1,8 @@
 import React, { useState,useEffect } from 'react'
 import food from '../data/food.json'
+// import nitw from '../assets/pics/IMG_0636.jpg'
+// import jhg from './assets/pics/fooddp/icon1.png'
+// import {jh}  from "./assets/IMG_0636.jpg"
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 // const myobj=JSON.parse(food);
 
@@ -12,7 +15,8 @@ const Food = () => {
  
   return (
     <div className=''>
-
+      {/* <img src="assets/icon1.png"></img> */}
+{/* <img src=".../assets/pics/IMG_0636.jpg" > </img> */}
       <div className='text-center'>
 
 
@@ -60,9 +64,9 @@ Welcome to food section
     <div key={i}>
 
     <div className=''>
+    <img src={ele.Img}></img>
       {/* IMage */}
-      <img src={ele.Image}>
-    </img>
+      {/* <img src="icon1.png"> </img>  */}
     </div>
 
 

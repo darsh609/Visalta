@@ -1,5 +1,5 @@
 import React from 'react'
-import nitw from "./assets/pics/IMG_0636.jpg"
+// import nitw from "./assets/IMG_0636.jpg"
 import Service from "./services"
 
 export const Home = () => {
@@ -9,7 +9,7 @@ export const Home = () => {
       <div > 
         <div className="relative"  >
         
-          <img src={nitw} className="opacity-50"></img>
+          <img src="./assets/IMG_0636.jpg" className="opacity-50"></img>
             <div className="h-8 bg-yellow-400 absolute bg-opacity-35 w-full top-8 text-center py-[2.8px] hover:text-center">
               Announcement
              </div>
@@ -17,7 +17,7 @@ export const Home = () => {
           Navigating students life
         </button>
         <div className="relative" >
-          <img src={nitw} className="opacity-50 "></img>
+          <img src="./assets/IMG_0636.jpg" className="opacity-50 "></img>
           <div className="absolute top-60  font-bold -left-3" >
           HLOO VISALTA 
         </div>

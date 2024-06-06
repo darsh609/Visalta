@@ -5,7 +5,7 @@
         {
             "id":"1",
         "Name":"Tazza-Tiffin",
-       "Img":"src/assets/pics/Food DP/icon1.png",
+       "Img":"assets/icon1.png",
         "Timing":"9AM-10PM",
         "Visit":"https://maps.app.goo.gl/zZ16GtU9jQg96Zm8A",
 
