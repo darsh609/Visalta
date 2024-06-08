@@ -3,9 +3,8 @@
 
 
         {
-            "id":"1",
         "Name":"Tazza-Tiffin",
-       "Img":"assets/icon1.png",
+       "Img":"assets/FoodDp/icon1.png",
         "Timing":"9AM-10PM",
         "Visit":"https://maps.app.goo.gl/zZ16GtU9jQg96Zm8A",
 
@@ -31,6 +30,7 @@
 
     {
         "Name":"Multi-Cuissine",
+        "Img":"assets/FoodDp/icon2.jpg",
               "Visit":"https://g.co/kgs/CETgyRT",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -64,6 +64,7 @@
 
     {
         "Name":"AROMA FINE DINE RESTAURANT",
+        "Img":"assets/FoodDp/icon3.png",
               "Visit":"https://maps.app.goo.gl/QnxiFhVJeAQz4iHQ9",
         "Timing":"11:30AM-11:30PM",
         "filters":[ 
@@ -93,6 +94,7 @@
 
     {
         "Name":"Heart-spot",
+        "Img":"assets/FoodDp/icon4.jpg",
         "Visit":"https://maps.app.goo.gl/mzeMYgkMyEgwq7wk8",
         "Timing":"7AM-12AM",
         "filters":[ 
@@ -125,6 +127,7 @@
 
     {
         "Name":"Kadai Multi Cuisine Resturent",
+        "Img":"assets/FoodDp/icon5.jpg",
               "Visit":"https://maps.app.goo.gl/7C2ShEhaB6sRKYZG9",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -157,6 +160,7 @@
 
     {
         "Name":"Kadai Drive In",
+        "Img":"assets/FoodDp/icon6.jpg",
               "Visit":"https://maps.app.goo.gl/5oryMjk7BHuJAZR49",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -188,6 +192,7 @@
 
     {
         "Name":"Kitchen 1970's",
+        "Img":"assets/FoodDp/icon7.png",
               "Visit":"https://maps.app.goo.gl/CXaMUtNHeeNqbuqV7",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -217,6 +222,7 @@
 
     {
         "Name":"Paradise Biryani Hanamkonda",
+        "Img":"assets/FoodDp/icon8.jpeg",
               "Visit":"https://maps.app.goo.gl/HxybmbhphAxiahqXA",
         "Timing":"11AM-11PM",
         "filters":[ 
@@ -245,6 +251,7 @@
 
     {
         "Name":"Paradise Biryani Warangal",
+        "Img":"assets/FoodDp/icon9.jpg",
               "Visit":"https://maps.app.goo.gl/UJfPetWhADhza9Py9",
         "Timing":"11AM-11PM",
         "filters":[ 
@@ -273,6 +280,7 @@
     
     {
         "Name":"Pizza Hut",
+        "Img":"assets/FoodDp/icon10.jpg",
               "Visit":"https://maps.app.goo.gl/FZp2pVmuHorFs9Qq7",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -302,6 +310,7 @@
 
     {
         "Name":"Platform 65-The train Theme",
+        "Img":"assets/FoodDp/icon11.jpg",
               "Visit":"https://maps.app.goo.gl/MT93SQLNuV9Qhuhm7",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -340,7 +349,7 @@
 
         
         "Name":"President Dhaba",
-       
+        "Img":"assets/FoodDp/icon12.png",
         "Timing":"12.30PM-10.30PM",
        
         "Visit":"https://maps.app.goo.gl/xHkGDATUsqd9TLdx8",
@@ -368,6 +377,7 @@
 
     {
         "Name":"St.mary Bakery",
+        "Img":"assets/FoodDp/icon13.jpg",
               "Visit":"https://maps.app.goo.gl/G2QdqFmHXnxJcG258",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -387,8 +397,11 @@
        ]
     },
 
+
+
     {
         "Name":"Zamindar Restaurant",
+        "Img":"assets/FoodDp/icon14.jpg",
               "Visit":"https://maps.app.goo.gl/6y7at8qHL77B2hWPA",
         "Timing":"12PM-11PM",
         "filters":[ 
@@ -421,7 +434,7 @@
 
     {
         "Name":"Hotel Rumaan's",
-        
+        "Img":"assets/FoodDp/icon15.jpg",
         "Visit":"https://maps.app.goo.gl/DUJrSF1A9h4yhpyX6",
         "Timing":"12PM-11PM",
         "filters":[ 
