@@ -351,9 +351,9 @@
     },
 
     {
-        "Name":"Zamindar Restaurant",
-              "Visit":"https://maps.app.goo.gl/1bXatBxnpwevWQnu9",
-        "Timing":"12PM-11PM",
+        "Name":"Raiyanns",
+              "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
+        "Timing":"12:30PM-11PM",
         "filters":[ 
         "Affordable",
         "Family Restaurant",
@@ -361,19 +361,20 @@
              "Party-Affordable" ,
     "Non-Veg",
     "Veg",
-    "Soups",
-    "Thali System",
-    "Kids Special",
+    "Iran chai",
+    "Franky Roll",
+    "Tandoori Kabab",
     
     "Biryani-Special",
        
         "South-Indian",
         
-    "Chinese",
+    
     
     "Campus-choice",
+    "Mandi",
+    "Shawarma",
     
-    "Meals",
        
     "Cold-Drink" ,
     "Nearby",
@@ -382,7 +383,116 @@
     },
 
 
+
+    {
+        "Name":"Stuti Pure Veg",
+              "Visit":"https://maps.app.goo.gl/XXPgvGLrgrULecxA6",
+        "Timing":"11AM-11:30PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
     
+             "Party-Affordable" ,
+    "Veg",
+    "Parota",
+    "Chinese",
+
+    
+    
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    
+    "Campus-choice",
+    "Jain food",
+
+    
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+    },
+
+
+
+    {
+        "Name":"Hut Kitchen",
+              "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
+        "Timing":"11AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+   
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    
+    
+
+    
+    "Fruit Juice",
+    "Milkshakes",
+    "Browine creations",
+    "Mock tails",
+    "Fruit salads",
+
+    "Campus-choice",
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+    },
+
+
+    {
+        "Name":"Raiyanns",
+              "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
+        "Timing":"12:30PM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Veg",
+    "Iran chai",
+    "Franky Roll",
+    "Tandoori Kabab",
+    
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    
+    "Campus-choice",
+    "Mandi",
+    "Shawarma",
+    
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+    },
+
+
+
+
+
+    
+
+
+
           
     
     
