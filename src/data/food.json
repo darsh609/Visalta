@@ -4,28 +4,17 @@
 
         {
         "Name":"Tazza-Tiffin",
-       
+       "Img":"assets/FoodDp/icon1.png",
         "Timing":"9AM-10PM",
-       
-        "Visit":"https://g.co/kgs/CETgyRT",
+        "Visit":"https://maps.app.goo.gl/zZ16GtU9jQg96Zm8A",
 
-
-        
-        
-  
   "filters":[ 
   "Affordable",
   "Family Restaurant",
   "Meals",
-
-    
        "Favourite",
        "Pure-Veg",
-
- 
   "South-Indian",
-
-
 "Campus-choice",
 
 "Meals",
@@ -35,18 +24,13 @@
 "Nearby(NIT-W)"
 
  ]
-    
-
-
-    
-
-
-
-
 
     },
+
+
     {
         "Name":"Multi-Cuissine",
+        "Img":"assets/FoodDp/icon2.jpg",
               "Visit":"https://g.co/kgs/CETgyRT",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -80,7 +64,8 @@
 
     {
         "Name":"AROMA FINE DINE RESTAURANT",
-              "Visit":"https://g.co/kgs/CETgyRT",
+        "Img":"assets/FoodDp/icon3.png",
+              "Visit":"https://maps.app.goo.gl/QnxiFhVJeAQz4iHQ9",
         "Timing":"11:30AM-11:30PM",
         "filters":[ 
         "Expensive",
@@ -88,16 +73,14 @@
     
              
     "Non-Veg",
-    "Veg"
+    "Veg",
     "Biryani-Special",
-       
-        "South-Indian",
-        
+    "South-Indian",
     "Chinese",
     "Sea Food Special",
     "Milkshakes",
     "Cold-Drink" ,
-    "Reasonable prices"
+    "Reasonable prices",
     "banquet hall Too",
     "Nearby(CMR-Shooping Mall)"
        ]
@@ -111,7 +94,8 @@
 
     {
         "Name":"Heart-spot",
-              "Visit":"https://maps.app.goo.gl/6tsFcQ7RKKmeYbXP9",
+        "Img":"assets/FoodDp/icon4.jpg",
+        "Visit":"https://maps.app.goo.gl/mzeMYgkMyEgwq7wk8",
         "Timing":"7AM-12AM",
         "filters":[ 
         "Affordable",
@@ -142,8 +126,9 @@
     },
 
     {
-        "Name":"Kadai",
-              "Visit":"https://g.co/kgs/CETgyRT",
+        "Name":"Kadai Multi Cuisine Resturent",
+        "Img":"assets/FoodDp/icon5.jpg",
+              "Visit":"https://maps.app.goo.gl/7C2ShEhaB6sRKYZG9",
         "Timing":"10AM-11PM",
         "filters":[ 
         "Affordable",
@@ -155,7 +140,39 @@
     
     "North Indian",
     "Ice Cream",
-    ""
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    "Chinese",
+    
+    "Campus-choice",
+    
+    "Meals",
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+
+    {
+        "Name":"Kadai Drive In",
+        "Img":"assets/FoodDp/icon6.jpg",
+              "Visit":"https://maps.app.goo.gl/5oryMjk7BHuJAZR49",
+        "Timing":"10AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+           
+    "Non-Veg",
+    "Veg",
+    
+    "North Indian",
+    "Ice Cream",
     "Biryani-Special",
        
         "South-Indian",
@@ -175,7 +192,8 @@
 
     {
         "Name":"Kitchen 1970's",
-              "Visit":"https://maps.app.goo.gl/7NqazemuaAsD4SBq8",
+        "Img":"assets/FoodDp/icon7.png",
+              "Visit":"https://maps.app.goo.gl/CXaMUtNHeeNqbuqV7",
         "Timing":"10AM-11PM",
         "filters":[ 
         "Affordable",
@@ -186,7 +204,6 @@
     "Veg",
     "Deserts",
     "Combo's",
-    ""
     "Biryani-Special",
        
         "South-Indian",
@@ -204,8 +221,38 @@
 
 
     {
-        "Name":"Paradise Biryani",
-              "Visit":"https://maps.app.goo.gl/nAy31fBGcgUirztu6",
+        "Name":"Paradise Biryani Hanamkonda",
+        "Img":"assets/FoodDp/icon8.jpeg",
+              "Visit":"https://maps.app.goo.gl/HxybmbhphAxiahqXA",
+        "Timing":"11AM-11PM",
+        "filters":[ 
+        "Affordable",
+        "Family Restaurant",
+    
+             "Party-Affordable" ,
+    "Non-Veg",
+    "Deserts",
+    "Combo's",
+    "Special sweets",
+    "Biryani-Special",
+       
+        "South-Indian",
+        
+    
+    "Campus-choice",
+    
+       
+    "Cold-Drink" ,
+    "Nearby",
+    "Nearby(NIT-W)"
+       ]
+          
+    },
+
+    {
+        "Name":"Paradise Biryani Warangal",
+        "Img":"assets/FoodDp/icon9.jpg",
+              "Visit":"https://maps.app.goo.gl/UJfPetWhADhza9Py9",
         "Timing":"11AM-11PM",
         "filters":[ 
         "Affordable",
@@ -233,7 +280,8 @@
     
     {
         "Name":"Pizza Hut",
-              "Visit":"https://g.co/kgs/CETgyRT",
+        "Img":"assets/FoodDp/icon10.jpg",
+              "Visit":"https://maps.app.goo.gl/FZp2pVmuHorFs9Qq7",
         "Timing":"10AM-11PM",
         "filters":[ 
         "Affordable",
@@ -244,7 +292,6 @@
     "Veg",
     "Shakes",
     "Western",
-    ""
     "Biryani-Special",
        
         "South-Indian",
@@ -263,7 +310,8 @@
 
     {
         "Name":"Platform 65-The train Theme",
-              "Visit":"https://maps.app.goo.gl/Ru9XptVjG3KekxCf9",
+        "Img":"assets/FoodDp/icon11.jpg",
+              "Visit":"https://maps.app.goo.gl/MT93SQLNuV9Qhuhm7",
         "Timing":"10AM-11PM",
         "filters":[ 
         "Expensive",
@@ -301,10 +349,10 @@
 
         
         "Name":"President Dhaba",
-       
+        "Img":"assets/FoodDp/icon12.png",
         "Timing":"12.30PM-10.30PM",
        
-        "Visit":"https://g.co/kgs/CETgyRT",
+        "Visit":"https://maps.app.goo.gl/xHkGDATUsqd9TLdx8",
     
     
         
@@ -315,14 +363,12 @@
     "Family Restaurant",
     
        "Biryani-Special",
-       "Cold-Drink",
-       "Chinese",
-       ""
+       "Cold-Drink",       "Chinese",
        "Favourite",
        "Veg|non-Veg",
     
     
-    "South-Indian",
+    "South-Indian"
     
     ]
 
@@ -331,7 +377,8 @@
 
     {
         "Name":"St.mary Bakery",
-              "Visit":"https://g.co/kgs/CETgyRT",
+        "Img":"assets/FoodDp/icon13.jpg",
+              "Visit":"https://maps.app.goo.gl/G2QdqFmHXnxJcG258",
         "Timing":"10AM-11PM",
         "filters":[ 
         "Affordable",
@@ -350,10 +397,13 @@
        ]
     },
 
+
+
     {
-        "Name":"Raiyanns",
-              "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
-        "Timing":"12:30PM-11PM",
+        "Name":"Zamindar Restaurant",
+        "Img":"assets/FoodDp/icon14.jpg",
+              "Visit":"https://maps.app.goo.gl/6y7at8qHL77B2hWPA",
+        "Timing":"12PM-11PM",
         "filters":[ 
         "Affordable",
         "Family Restaurant",
@@ -384,37 +434,34 @@
 
 
 
+
+    
     {
-        "Name":"Stuti Pure Veg",
-              "Visit":"https://maps.app.goo.gl/XXPgvGLrgrULecxA6",
-        "Timing":"11AM-11:30PM",
+        "Name":"Hotel Rumaan's",
+        "Img":"assets/FoodDp/icon15.jpg",
+        "Visit":"https://maps.app.goo.gl/DUJrSF1A9h4yhpyX6",
+        "Timing":"12PM-11PM",
         "filters":[ 
-        "Affordable",
-        "Family Restaurant",
-    
-             "Party-Affordable" ,
-    "Veg",
-    "Parota",
-    "Chinese",
-
-    
-    
-    "Biryani-Special",
-       
-        "South-Indian",
-        
-    
-    
-    "Campus-choice",
-    "Jain food",
-
-    
-       
-    "Cold-Drink" ,
-    "Nearby",
-    "Nearby(NIT-W)"
-       ]
+            "Party-Affordable",
+            "Non-veg",
+            "Biryani-Special",
+            "Non-Veg Special",
+            "North-Indian",
+            "South-Indian",
+            "Ice-Creams",
+            "Favourite",
+            "Chinese",
+            "Western",
+            "Campus-choice",
+            "Cold-Drink",
+            "Arabic",
+            "Affordable",
+            "Family Restaurant",
+            "Nearby(NIT-W)"
+        ]
     },
+
+    
 
 
 
@@ -484,6 +531,7 @@
     "Nearby(NIT-W)"
        ]
     },
+    
 
 
 

@@ -4,7 +4,7 @@ import {Home} from "./Home"
 import { Login } from "./Login";
 import {Route,Routes} from "react-router-dom"
 import Food from "./servicespage/food"
-import Travel from "./servicespage/travel"
+import Traverse from "./servicespage/traverse"
 import Medical from "./servicespage/medical"
 import Worship from "./servicespage/worship"
 import Foodfil from "./servicespage/foodfil";
@@ -18,11 +18,9 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="food" element={<Food/>}/>
       <Route path="worship" element={<Worship/>}/>
-      <Route path="travel" element={<Travel/>}/>
+      <Route path="Traverse" element={<Traverse/>}/>
       <Route path="medical" element={<Medical/>}/>
       <Route path="food/filters" element={<Foodfil/>}/>
-
-
       
     </Routes>
 
