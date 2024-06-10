@@ -467,7 +467,8 @@
 
     {
         "Name":"Hut Kitchen",
-              "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
+              "Visit":"https://maps.app.goo.gl/oUru5feJ9kbYqs3TA",
+              "Img":"assets/FoodDp/icon16.jpeg",
         "Timing":"11AM-11PM",
         "filters":[ 
         "Affordable",
@@ -503,6 +504,7 @@
     {
         "Name":"Raiyanns",
               "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
+              "Img":"assets/FoodDp/icon17.jpg",
         "Timing":"12:30PM-11PM",
         "filters":[ 
         "Affordable",
@@ -524,13 +526,535 @@
     "Campus-choice",
     "Mandi",
     "Shawarma",
-    
-       
     "Cold-Drink" ,
     "Nearby",
     "Nearby(NIT-W)"
        ]
     },
+
+
+    {
+  "Name":"Chefs Table",
+  "Visit":"https://maps.app.goo.gl/bbEp76gq9Vvw7P956",
+  "Img":"assets/FoodDp/icon18.jpg",
+    "Timing":"11AM-11PM",
+  "filters":[ 
+      "Non-veg",
+      "Biryani-Special",
+      "Shawarma-Special",
+      "Non-Veg Special",
+      "Shakes",
+      "North-Indian",
+      "Cafe",
+      "Deserts",
+      "Favourite",
+      "Chinese",
+      "Western",
+      "Campus-choice",
+      "Arabic",
+      "Family Restaurant",
+      "Nearby(NIT-W)"
+    ]
+},
+
+{
+    "Name":"Papa's Pizzeria",
+    "Visit":"https://maps.app.goo.gl/aYz7qybkYn1iHnvH9",
+    "Img":"assets/FoodDp/icon19.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+      "Shakes",
+      "Deserts",
+      "Ice-Creams",
+      "Favourite",
+      "Western",
+      "Family Restaurant",
+      "Nearby(NIT-W)"
+    ]
+  },
+
+  {
+    "Name":"Prakruthi Hanamkonda",
+    "Visit":"https://maps.app.goo.gl/1zKw3qqvLwPqPuy8A",
+    "Img":"assets/FoodDp/icon20.jpg",
+    "Timing":"11AM-11PM",
+    "filters":[ 
+      "Party-Affordable",
+      "Non-veg",
+      "Biryani-Special",
+      "Seafood",
+      "Non-Veg Special",
+      "North-Indian",
+      "Favourite",
+      "Campus-choice",
+      "Cold-Drink",
+      "Affordable",
+      "Family Restaurant",
+      "Nearby(NIT-W)"
+    ]
+  },
+
+
+
+  {
+    "Name":"Prakruthi Warangal",
+    "Visit":"https://maps.app.goo.gl/xW2T4gfdbQUwuMgC8",
+    "Img":"assets/FoodDp/icon21.jpg",
+    "Timing":"11AM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+      "Non-veg",
+      "Biryani-Special",
+      "Seafood",
+      "Non-Veg Special",
+      "North-Indian",
+      "Favourite",
+      "Campus-choice",
+      "Cold-Drink",
+      "Affordable",
+      "Family Restaurant",
+      "Nearby(NIT-W)"
+    ]
+  },
+
+  {
+    "Name":"Papadams Blue",
+    "Visit":"https://maps.app.goo.gl/tdtgN8BHtyLL9QbH7",
+    "Img":"assets/FoodDp/icon22.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+      "Non-veg",
+      "Biryani-Special",
+      "Seafood",
+      "Non-Veg Special",
+      "Shakes",
+      "Lassi",
+      "North-Indian",
+      "South-Indian",
+      "Punjabi-Indian",
+      "Deserts",
+      "Ice-Creams",
+      "Favourite",
+      "Chinese",
+      "Campus-choice",
+      "Cold-Drink",
+      "Family Restaurant"
+
+    ]
+  },
+
+  {
+    "Name":"Manar Kebab & Grills",
+    "Visit":"https://maps.app.goo.gl/Tb8E6mTMWsHSaR5W9",
+    "Img":"assets/FoodDp/icon23.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+      "Non-veg",
+      "Biryani-Special",
+      "Seafood",   
+      "Non-Veg Special",
+      "North-Indian",
+      "Favourite",
+      "Campus-choice",
+      "Cold-Drink",
+      "Affordable",
+      "Family Restaurant",
+      "Nearby(NIT-W)"
+    ]
+  },
+
+  {
+    "Name":"Red Bus Canteen",
+    "Visit":"https://maps.app.goo.gl/kPyuuGgauEgBanmZ9",
+    "Img":"assets/FoodDp/icon24.jpg",
+    "Timing":"7:30AM-10:30PM",
+    "filters":[ 
+        "Pure-veg",
+              "Tiffins",
+              "Break-fast",
+              "Shakes",
+              "Lassi",
+              "Ice-Creams",
+              "Favourite",
+              "Chinese",
+              "Campus-choice",
+              "Cold-Drink",
+              "Affordable",
+              "Nearby(NIT-W)"
+        
+    ]
+  },
+
+
+  {
+    "Name":"Red Bucket Biryani Hanamkonda",
+    "Visit":"https://maps.app.goo.gl/WaYi8CcEgihV6HE29",
+    "Img":"assets/FoodDp/icon25.jpg",
+    "Timing":"11AM-12:30AM",
+    "filters":[ 
+        "Non-veg",
+      "Biryani-Special",
+      "Favourite",
+      "Campus-choice",
+      "Affordable"
+
+    ]
+  },
+
+  {
+    "Name":"Red Bucket Biryani Warangal",
+    "Visit":"https://maps.app.goo.gl/LNdPcmxjXmYvF1o98",
+    "Img":"assets/FoodDp/icon26.jpg",
+    "Timing":"11AM-12:30AM",
+    "filters":[ 
+        "Non-veg",
+      "Biryani-Special",
+      "Favourite",
+      "Campus-choice",
+      "Affordable"
+    ]
+  },
+
+  {
+    "Name":"Belgian Waffels Co",
+    "Visit":"https://maps.app.goo.gl/1kdXjKVFT7FVsDyY9",
+    "Img":"assets/FoodDp/icon27.jpg",
+    "Timing":"10:30AM-10:30PM",
+    "filters":[ 
+        "Shakes",
+      "Deserts",
+      "Ice-Creams",
+      "Favourite",
+      "Western",
+      "Campus-choice",
+      "Affordable",
+      "Nearby(NIT-W)"
+
+    ]
+  },
+
+  {
+    "Name":"The ThickShake Factory ",
+    "Visit":"https://maps.app.goo.gl/XbLGbXaVSMzjonhcA",
+    "Img":"assets/FoodDp/icon28.jpg",
+    "Timing":"11AM-11PM",
+    "filters":[ 
+        "Shakes",
+      "Nearby(NIT-W)"
+
+    ]
+  },
+
+
+  {
+    "Name":"Orugalla Biryani Subedari",
+    "Visit":"https://maps.app.goo.gl/xRyUh3jNtyjKyQq57",
+    "Img":"assets/FoodDp/icon29.jpg",
+    "Timing":"10:30AM-11PM",
+    "filters":[ 
+        "Non-veg",
+      "Biryani-Special",
+      "Affordable",
+      "Nearby(NIT-W)"
+
+    ]
+  },
+
+
+  {
+    "Name":"Orugalla Biryani Point ",
+    "Visit":"https://maps.app.goo.gl/KzWs6bxUQ7GqCDah6",
+    "Img":"assets/FoodDp/icon30.jpg",
+    "Timing":"10:30AM-10:30PM",
+    "filters":[ 
+       "Non-veg",
+      "Biryani-Special",
+      "Affordable"
+
+    ]
+  },
+
+  {
+    "Name":"Domino's Pizza Hanamkonda",
+    "Visit":"https://maps.app.goo.gl/fSW4WA61Y7k9SHkJ7",
+    "Img":"assets/FoodDp/icon31.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+
+  {
+    "Name":"Domino's Pizza Warangal",
+    "Visit":"https://maps.app.goo.gl/MqjFAHHE1WK8MZ7Z9",
+    "Img":"assets/FoodDp/icon32.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+
+  {
+    "Name":"Hyderabad Spice",
+    "Visit":"https://maps.app.goo.gl/YEk7LR3bCTDDdRHd6",
+    "Img":"assets/FoodDp/icon33.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+
+  {
+    "Name":"21 Spice",
+    "Visit":"https://maps.app.goo.gl/aUDDj8a3X6wihqUS6",
+    "Img":"assets/FoodDp/icon34.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+  {
+    "Name":"Eagles' Pizza",
+    "Visit":"https://maps.app.goo.gl/WTzqqaVZNdKiu77h8",
+    "Img":"assets/FoodDp/icon35.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+  {
+    "Name":"Coffee Couch",
+    "Visit":"https://maps.app.goo.gl/pNAifcmpPHWxWwno8",
+    "Img":"assets/FoodDp/icon36.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+  {
+    "Name":"The Coffee Lounge",
+    "Visit":"https://maps.app.goo.gl/aUCM4qHfG17j2DAv7",
+    "Img":"assets/FoodDp/icon37.jpg",
+    "Timing":"12PM-11PM",
+    "filters":[ 
+        "Party-Affordable",
+        "Non-veg",
+        "Biryani-Special",
+        "Pure-veg",
+        "Shawarma-Special",
+        "Mess",
+        "Tiffins",
+        "Break-fast",
+        "Seafood",
+        "Non-Veg Special",
+        "Bakery-Items",
+        "Shakes",
+        "Lassi",
+        "North-Indian",
+        "South-Indian",
+        "Punjabi-Indian",
+        "Cafe",
+        "Deserts",
+        "Ice-Creams",
+        "Favourite",
+        "Chinese",
+        "Western",
+        "Campus-choice",
+        "Buffet",
+        "Meals",
+        "Cold-Drink",
+        "Arabic",
+        "Affordable",
+        "Family Restaurant",
+        "Nearby(NIT-W)"
+    ]
+  }
+
+
+
+
+
     
 
 
