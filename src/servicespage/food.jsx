@@ -26,7 +26,7 @@ const Food = () => {
 {/* EYE CATCHING LINEN */}
 <h1 className='text-4xl text-center bg-orange-400'>
 
-Welcome to food section
+Welcome to food sectionmnn
 
 </h1>
 
