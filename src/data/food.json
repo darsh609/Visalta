@@ -1499,7 +1499,244 @@
         "Family Restaurant",
         "Nearby(NIT-W)"
     ]
+  },
+
+  {
+    "Name":"KFC",
+    "Visit":"https://maps.app.goo.gl/jrEc13BCBx7sDh9k6",
+    "Img": ,
+    "Timing":"11AM-11PM",
+    "filters":[ 
+      "Non-veg",
+      "Non-Veg Special",
+      "Veg/Non-veg Burgers",
+      "Box-Meals",
+      "Snacks",
+      "Specially For Chicken",
+      "Favourite",
+      "Campus-choice",
+      "Cold-Drink",
+      "Affordable",
+      "Nearby(NIT-W)"
+    ]
+  },
+
+
+  {
+    "Name":"The Nawaab's Arabian restaurant",
+    "Visit":"https://maps.app.goo.gl/DCrzGU7MuJSL6cLw8",
+    "Img":"",
+    "Timing":"12PM-11:30PM",
+    "filters":[ 
+        "Non-veg",
+        "Biryani-Special",
+        "Special Nawaabs Mandi",
+        "Non-veg Soups",
+        "Shakes",
+        "Sea Food Mandi",
+        "Mixed Platter",
+        "Veg/Paneer Mandi",
+        "South-Indian",
+        "Deserts",
+        "Cold-Drink",
+        "Family Restaurant",
+        "Near by(Paradise Biryani House)"
+    ]
+  },
+
+
+
+  {
+    "Name":"Food Costa",
+    "Visit":"https://maps.app.goo.gl/25tMQ5aoN7m8HJaq9",
+    "Img":"",
+    "Timing":"2PM-11PM",
+    "filters":[ 
+        "Non-veg",
+        "Veg",
+        "Sandwicks(veg/non-veg)",
+        "Pizza(Veg/Non-veg)",
+        "Chinese",
+        "Maggi(Veg/Non-Veg)",
+        "Ice-Creams",
+        "Shakes",
+        "Hot/Cold Coffee",
+        "Tea",
+        "Mojito",
+        "Snacks",
+        "Nachos",
+        "Breads",
+        "Veg/Non-veg Burgers",
+        "Biryani",
+        "Momos",
+        "Deserts",
+        "Cold-Drink",
+        "Affordable",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+
+
+  {
+    "Name":"Le Cupper's Cafe",
+    "Visit":"https://maps.app.goo.gl/nENs56tnHQ4zSt4W9",
+    "Img":"",
+    "Timing":"11AM-11:30PM",
+    "filters":[ 
+        "Pasta",
+        "Ice-Creams",
+        "Shakes",
+        "Hot/Cold Coffee",
+        "Tea",
+        "Mojito",
+        "Snacks",
+        "Nachos",
+        "Breads",
+        "Cold-Drink",
+        "Affordable",
+        "Nearby(NIT-W)"
+    ]
+  },
+
+
+
+
+
+  {
+    "Name":"Dream@NIT The Foodie Delight",
+    "Visit":"https://maps.app.goo.gl/hSL2RhVygwga6P4P7",
+    "Img":"",
+    "Timing":"2PM-11PM",
+    "filters":[ 
+        "Non-veg",
+        "Veg",
+        "Biryani",
+        "Fast Food",
+        "Meals",
+        "Tiffin",
+        "Curry's",
+        "Shawarma",
+        "Cold-Drink",
+        "Affordable",
+        "Nearby(NIT-W)"
+
+    ]
+  },
+
+
+  {
+    "Name":"Kanishka Veg Restaurant",
+    "Visit":"https://maps.app.goo.gl/8Zxr8wfGLdwBEeG88",
+    "Img":"",
+    "Timing":"12PM-11:30PM",
+    "filters":[ 
+        "Pure Veg",
+        "Veg Thali",
+        "Tiffins",
+        "famous Jawar Idly",
+        "Fruit Salads",
+        "Famous Dosa",
+        "South-Indian",
+        "Deserts",
+        "Cold-Drink",
+        "Family Restaurant",
+        "Near by(HOTEL ASHOKA)"
+    ]
+  },
+
+
+
+  {
+    "Name":"Rangoli Restaurant & Elite Bar",
+    "Visit":"https://maps.app.goo.gl/nCBk5nvyRNsJkmgLA",
+    "Img":"",
+    "Timing":"10AM-12AM",
+    "filters":[ 
+        "Veg",
+        "Non-Veg",
+        "Chinese",
+        "Fast Food",
+        "South-Indian",
+        "Deserts",
+        "Cold-Drink",
+        "Family Restaurant",
+        "Near by(Papa's pizzeria)"
+    ]
+  },
+
+
+
+
+  {
+    "Name":"Hamara Shawarma",
+    "Visit":"https://maps.app.goo.gl/C5BviVWPPrku1FFa9",
+    "Img":"",
+    "Timing":"10AM-12AM",
+    "filters":[ 
+        "Veg",
+        "Non-Veg",
+        "Chinese",
+        "Speacial tandoori chicken Shawarma",
+        "Special Biryani",
+        "Snacks",
+        "Mojito",
+        "Fast Food",
+        "Cold-Drink",
+        "Family Restaurant",
+        "Near by(RollOver)"
+    ]
+  },
+
+  {
+    "Name":"Let's Scoop Icecream Cafe",
+    "Visit":"https://maps.app.goo.gl/gK8AbAvYEF4BCGS78",
+    "Img":"",
+    "Timing":"10:30AM-12:30AM",
+    "filters":[ 
+        "Veg",
+        "Sandwicks",
+        "Chaat",
+        "Browine creations",
+        "Italic Pizza",
+        "Chinese",
+        "Maggi",
+        "Ice-Creams",
+        "Shakes",
+        "Hot/Cold Coffee",
+        "Special Sundae",
+        "Soda pops",
+        "Natural Scoop",
+        "Snacks",
+        "Affordable",
+        "Nearby(Pizza Hut)"
+    ]
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
