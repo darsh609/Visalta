@@ -1504,7 +1504,7 @@
   {
     "Name":"KFC",
     "Visit":"https://maps.app.goo.gl/jrEc13BCBx7sDh9k6",
-    "Img":"public\assets\FoodDp\icon75.png" ,
+    "Img":"/assets/FoodDp/icon75.png" ,
     "Timing":"11AM-11PM",
     "filters":[ 
       "Non-veg",
@@ -1525,7 +1525,7 @@
   {
     "Name":"The Nawaab's Arabian restaurant",
     "Visit":"https://maps.app.goo.gl/DCrzGU7MuJSL6cLw8",
-    "Img":"public\assets\FoodDp\icon74.png",
+    "Img":"/assets/FoodDp/icon74.png",
     "Timing":"12PM-11:30PM",
     "filters":[ 
         "Non-veg",
@@ -1549,7 +1549,7 @@
   {
     "Name":"Food Costa",
     "Visit":"https://maps.app.goo.gl/25tMQ5aoN7m8HJaq9",
-    "Img":"public\assets\FoodDp\icon73.png",
+    "Img":"/assets/FoodDp/icon73.png",
     "Timing":"2PM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1581,7 +1581,7 @@
   {
     "Name":"Le Cupper's Cafe",
     "Visit":"https://maps.app.goo.gl/nENs56tnHQ4zSt4W9",
-    "Img":"public\assets\FoodDp\icon72.png",
+    "Img":"/assets/FoodDp/icon72.png",
     "Timing":"11AM-11:30PM",
     "filters":[ 
         "Pasta",
@@ -1606,7 +1606,7 @@
   {
     "Name":"Dream@NIT The Foodie Delight",
     "Visit":"https://maps.app.goo.gl/hSL2RhVygwga6P4P7",
-    "Img":"public\assets\FoodDp\icon71.png",
+    "Img":"/assets/FoodDp/icon71.png",
     "Timing":"2PM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1628,7 +1628,7 @@
   {
     "Name":"Kanishka Veg Restaurant",
     "Visit":"https://maps.app.goo.gl/8Zxr8wfGLdwBEeG88",
-    "Img":"public\assets\FoodDp\icon70.png",
+    "Img":"/assets/FoodDp/icon70.png",
     "Timing":"12PM-11:30PM",
     "filters":[ 
         "Pure Veg",
@@ -1650,7 +1650,7 @@
   {
     "Name":"Rangoli Restaurant & Elite Bar",
     "Visit":"https://maps.app.goo.gl/nCBk5nvyRNsJkmgLA",
-    "Img":"public\assets\FoodDp\icon69.png",
+    "Img":"/assets/FoodDp/icon69.png",
     "Timing":"10AM-12AM",
     "filters":[ 
         "Veg",
@@ -1671,7 +1671,7 @@
   {
     "Name":"Hamara Shawarma",
     "Visit":"https://maps.app.goo.gl/C5BviVWPPrku1FFa9",
-    "Img":"public\assets\FoodDp\icon68.png",
+    "Img":"/assets/FoodDp/icon68.png",
     "Timing":"10AM-12AM",
     "filters":[ 
         "Veg",
@@ -1691,7 +1691,7 @@
   {
     "Name":"Let's Scoop Icecream Cafe",
     "Visit":"https://maps.app.goo.gl/gK8AbAvYEF4BCGS78",
-    "Img":"public\assets\FoodDp\icon67.jpeg",
+    "Img":"/assets/FoodDp/icon67.jpeg",
     "Timing":"10:30AM-12:30AM",
     "filters":[ 
         "Veg",
