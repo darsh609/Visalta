@@ -6,7 +6,7 @@ import { Link, Navigate, useNavigate } from 'react-router-dom';
   return (
     <div>
       {
-        workship.map((ele,i)=>(
+        worship.map((ele,i)=>(
           <div key={i}>
             <div>
             {ele.GodName}
