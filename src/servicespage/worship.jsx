@@ -1,5 +1,5 @@
 import React from 'react'
-import workship from '../data/workship.json'
+import worship from '../data/worship.json'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
  const Worship = () => {
   const navigate=useNavigate();
