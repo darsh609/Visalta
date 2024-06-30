@@ -11,7 +11,7 @@ import Foodfil from "./servicespage/foodfil";
 import Food1 from "./Homes/food1";
 import { Order } from "./servicespage/Order";
 import { Travel } from "./servicespage/Travel";
-import { Rough } from "./data/Rough";
+import { Rough } from "./datas/Rough";
 
 function App() {
   return (

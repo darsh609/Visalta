@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import food from '../data/food.json'
+import food from '../datas/food.json'
 // import nitw from '../assets/pics/IMG_0636.jpg'
 // import jhg from './assets/pics/fooddp/icon1.png'
 // import {jh}  from "./assets/IMG_0636.jpg"

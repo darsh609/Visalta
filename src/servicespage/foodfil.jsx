@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { filterData } from '../data/filters'
+import { filterData } from '../datas/filters'
 import { Sidebar } from './Sidebar'
 const Foodfil = () => {
 
