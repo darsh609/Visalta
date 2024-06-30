@@ -11,6 +11,7 @@ import Foodfil from "./servicespage/foodfil";
 import Food1 from "./Homes/food1";
 import { Order } from "./servicespage/Order";
 import { Travel } from "./servicespage/Travel";
+import { Rough } from "./data/Rough";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="food1" element={<Food1/>}/>
       <Route path="Order" element={<Order/>}/>
       <Route path="Travel" element={<Travel/>}/>
+      <Route path="rough" element={<Rough/>}/>
     </Routes>
 
     </div>  );

@@ -75,3 +75,10 @@
 //       "Nearby(NIT-W)"
 //   ]
 // }
+import React from 'react'
+
+export const Rough = () => {
+  return (
+    <div>rough</div>
+  )
+}
