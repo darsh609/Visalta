@@ -78,32 +78,105 @@
 
 
     {
-        "TempleName":"Ganesh madapam",
-        "Image":"No Image Rght Now",
-        "Location":"https://maps.app.goo.gl/yPpCgsAxKrxg6jhN7",
+        "TempleName":"Subramanyeshwara Swamy Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/n6J2irTZ9Qm5gpKJ7",
         "Timing":"6AM-8PM",
         "Religious":"Hindu",
-        "GodName":" Lord Ganesh",
-        "History": "No History"
+        "GodName":"Lord shiva, Lord hanuman, Lord Subrahmanya Swamy",
+        "History": "Every Tuesday morning Subramanya swamy abhishekam is performed glassful to participate"
     },
 
     {
-        "TempleName":"Ganesh madapam",
-        "Image":"No Image Rght Now",
-        "Location":"https://maps.app.goo.gl/yPpCgsAxKrxg6jhN7",
+        "TempleName":"Lord Sri Venkateshwara Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/owNCBwb6Jm2bEurZ8",
+        "Timing":"6AM-10:30AM,6PM-8:30PM",
+        "Religious":"Hindu",
+        "GodName":" Lord Venkateswara",
+        "History": "The Hindu god Venkateswara is said to have taken human form to aid his devotees in their struggles with the material world"
+    },
+
+
+    {
+        "TempleName":"Shivalayam (sri bhavani mruthyumjeshwara swamy)",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/D25StrE7eYeFae9W7",
         "Timing":"6AM-8PM",
         "Religious":"Hindu",
-        "GodName":" Lord Ganesh",
+        "GodName":"Lord Bhavani Mruthyumjeshwara",
         "History": "No History"
     },
 
 
     {
-        "TempleName":"Ganesh madapam",
-        "Image":"No Image Rght Now",
-        "Location":"https://maps.app.goo.gl/yPpCgsAxKrxg6jhN7",
+        "TempleName":"Ramalayam Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/brr4N8je9sVTKFoz6",
         "Timing":"6AM-8PM",
         "Religious":"Hindu",
-        "GodName":" Lord Ganesh",
+        "GodName":"Lord Ram",
         "History": "No History"
-    }]
+    },
+
+
+
+    {
+        "TempleName":"Sri Sri Sri Prasanna Anjaneya Swamy Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/JCXTTwskkrntYH3dA",
+        "Timing":"6AM-8PM",
+        "Religious":"Hindu",
+        "GodName":"Lord Prasanna Anjaneya Swamy",
+        "History": "No History"
+    },
+
+
+
+    {
+        "TempleName":"Sri Pochamma Temple of Siripuram Clan",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/iHLpnngvj9ACsQ7v8",
+        "Timing":"7AM-7PM",
+        "Religious":"Hindu",
+        "GodName":"Lord Pochamma ",
+        "History": "No History"
+    },
+
+
+    {
+        "TempleName":"Sri Sai Baba Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/eYucKW4nYWcaooY46",
+        "Timing":"6AM-8PM",
+        "Religious":"Hindu",
+        "GodName":"Lord Sai Baba",
+        "History": "Most accounts mention his birth as a Hindu Brahman and his subsequent adoption by a Sufi fakir, or mendicant"
+    },
+
+
+    {
+        "TempleName":"Swetharkamoola Ganapathi Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/DPLhbT6yyG6y4EGx7",
+        "Timing":"6AM-11AM,6PM-8PM",
+        "Religious":"Hindu",
+        "GodName":"Lord Ganapathi",
+        "History": "Eliminates illness and diseases. For Prosperity and growth. Activating positive energies in the house. Protection against any enemy"
+    },
+
+
+    {
+        "TempleName":"Dhonagutta Sri Lakshmi Narasimha Swamy Temple",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/D7ucb9eZxRzxcbRG8",
+        "Timing":"8AM-11AM",
+        "Religious":"Hindu",
+        "GodName":"Lord Narasimha",
+        "History": "The Villagers made a survey of the ant-hill area, where the cow daily used to shed her milk, and dug the area after offering coconuts to the Lord. They found a stony sculptured form of the Lord Narasimha"
+    }
+
+
+
+
+]
