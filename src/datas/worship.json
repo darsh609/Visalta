@@ -190,7 +190,70 @@
         "Religious":"Hindu",
         "GodName":"Lord Narasimha",
         "History": "The Villagers made a survey of the ant-hill area, where the cow daily used to shed her milk, and dug the area after offering coconuts to the Lord. They found a stony sculptured form of the Lord Narasimha"
+    },
+
+
+    {
+        "ids":"17",
+        "ChurchName":"CSI St Andrew New Church",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/siF3T73L6hUWf3jU6",
+        "Timing":"24hrs open",
+        "Religious":"Christianity",
+        "GodName":"Jesus",
+        "History": "No history"
+    },
+
+
+    {
+        "ids":"18",
+        "ChurchName":"ST. Mary's Church",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/pNnn8TDt1amovQm26",
+        "Timing":"24hrs Open",
+        "Religious":"Jesus",
+        "GodName":"Jesus",
+        "History": "No History"
+    },
+
+    {
+        "ids":"19",
+        "MasjidName":"Masjid E Kalan Aiwan E Shahi (Baadi Masjid)",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/uNKRjHi7e1C8MVXN9",
+        "Timing":"24hrs Open",
+        "Religious":"Muslim",
+        "GodName":"E Kalan Aiwan E Shahi",
+        "History":"No History"
+
+    },
+
+
+    {
+        "ids":"20",
+        "MasjidName":"Masjid-e-Zikra ( Mehrunnisa ) ",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/kpiofwCGFm2HvfDg7",
+        "Timing":"24hrs Open",
+        "Religious":"Muslim",
+        "GodName":"E-Zikra",
+        "History":"No History"
+
+    },
+   
+
+    {
+        "ids":"21",
+        "MasjidName":"Masjid-e-Shariefein",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/iePoTY6rPmgAUpeo6",
+        "Timing":"24hrs Open",
+        "Religious":"Muslim",
+        "GodName":"E-Shariefein",
+        "History":"No History"
     }
+
+
 
 
 
