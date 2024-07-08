@@ -930,7 +930,6 @@
     "Img":"assets/FoodDp/icon39.jpg",
     "Timing":"11AM-11PM",
   "filters":[ 
-      "Party-Affordable",
       "Non-veg",
       "Shawarma-Special",
       "Non-Veg Special",
@@ -938,8 +937,6 @@
       "Western",
       "Campus-choice",
       "Cold-Drink",
-      "Arabic",
-      "Affordable",
       "Family Restaurant",
       "Nearby(NIT-W)"
 
@@ -1097,7 +1094,7 @@
 
 
   {
-    "Name":"3Star Sweets & Bakery",
+    "Name":"3 Star Sweets & Bakery",
     "Visit":"https://maps.app.goo.gl/V9e4bAB3Sutv3TJCA",
     "Img":"assets/FoodDp/icon47.jpeg",
     "Timing":"10AM-11PM",
@@ -1427,37 +1424,16 @@
     "Img":"assets/FoodDp/icon65.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
-        "Party-Affordable",
-        "Non-veg",
-        "Biryani-Special",
-        "Pure-veg",
-        "Shawarma-Special",
-        "Mess",
-        "Tiffin",
-        "Break-fast",
-        "Seafood",
-        "Non-Veg Special",
-        "Bakery-Items",
-        "Shakes",
-        "Lassi",
-        "North-Indian",
-        "South-Indian",
-        "Punjabi-Indian",
-        "Cafe",
-        "Deserts",
-        "Ice-Creams",
-        "Favourite",
-        "Chinese",
-        "Western",
-        "Campus-choice",
-        "Buffet",
-        "Meals",
-        "Cold-Drink",
-        "Arabic",
-        "Affordable",
-        "Family Restaurant",
-        "Nearby(NIT-W)"
-    ]
+      "Pure-veg",
+      "Break-fast",
+      "Bakery-Items",
+      "Shakes",
+      "Lassi",
+      "North-Indian",
+      "Deserts",
+      "Ice-Creams",
+      "Campus-choice"
+  ]
 
   },
 
@@ -1466,38 +1442,26 @@
     "Name":"Hotel Ashoka",
     "Visit":"https://maps.app.goo.gl/2jnSnqwJrEg8xPgLA",
     "Img":"assets/FoodDp/icon66.jpg",
-    "Timing":"12PM-11PM",
+    "Timing":"12PM-9PM",
     "filters":[ 
-        "Party-Affordable",
         "Non-veg",
-        "Biryani-Special",
         "Pure-veg",
-        "Shawarma-Special",
         "Mess",
         "Tiffin",
         "Break-fast",
         "Seafood",
         "Non-Veg Special",
-        "Bakery-Items",
         "Shakes",
         "Lassi",
         "North-Indian",
         "South-Indian",
         "Punjabi-Indian",
-        "Cafe",
         "Deserts",
         "Ice-Creams",
-        "Favourite",
         "Chinese",
         "Western",
-        "Campus-choice",
-        "Buffet",
-        "Meals",
         "Cold-Drink",
-        "Arabic",
-        "Affordable",
-        "Family Restaurant",
-        "Nearby(NIT-W)"
+        "Family Restaurant"
     ]
   },
 
