@@ -120,6 +120,14 @@
         "Image":"",
         "Location":"https://maps.app.goo.gl/q8R95tvv4Wh5rFsi7",
         "Timing":"6AM-9PM"
+    },
+
+    {
+        "id":"16",
+        "PlaceName":"Kush Mahal",
+        "Image":"",
+        "Location":"https://maps.app.goo.gl/5RhcKS7TEjVMiL1eA",
+        "Timing":"8AM-6PM"
     }
 ]
 
