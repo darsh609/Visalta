@@ -5,6 +5,15 @@ import { Link, Navigate, useNavigate } from 'react-router-dom';
 //   function handleclick(){
 //     navigate("/food")
 //    }
+
+
+
+
+
+
+
+
+
   return (
     <div>
         <div className="bg-amber-700 w-full h-44 text-center mt-32 text-6xl pt-20 rounded-2xl cursor-pointer" onClick={()=>navigate("/food1")}>
