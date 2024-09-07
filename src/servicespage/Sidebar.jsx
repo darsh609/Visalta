@@ -78,6 +78,7 @@ console.log(v)
 
 
   return (
+    /////////////
     <div className='w-full' >
         <div className='w-full text-center'>
             <button
@@ -89,7 +90,7 @@ console.log(v)
     
              `}
              onClick={()=>emptythis()}>
-                ALL
+                ALLlll
             </button>
         </div>
         <div className=' w-full'>
