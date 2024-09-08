@@ -4,7 +4,7 @@
 
         {
         "Name":"Tazza-Tiffin",
-       "Img":"assets/FoodDp/icon1.png",
+       "Img":"/assets/FoodDp/icon1.png",
         "Timing":"9AM-10PM",
         "Visit":"https://maps.app.goo.gl/zZ16GtU9jQg96Zm8A",
 
@@ -40,7 +40,7 @@
 
 
         
-        "Img":"assets/FoodDp/icon2.jpg",
+        "Img":"/assets/FoodDp/icon2.jpg",
               "Visit":"https://g.co/kgs/CETgyRT",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -74,7 +74,7 @@
 
     {
         "Name":"AROMA FINE DINE RESTAURANT",
-        "Img":"assets/FoodDp/icon3.png",
+        "Img":"/assets/FoodDp/icon3.png",
               "Visit":"https://maps.app.goo.gl/QnxiFhVJeAQz4iHQ9",
         "Timing":"11:30AM-11:30PM",
         "filters":[ 
