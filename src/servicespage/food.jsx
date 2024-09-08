@@ -7,57 +7,28 @@ import { Link, Navigate, useNavigate } from 'react-router-dom';
 // const myobj=JSON.parse(food);
 
 const Food = () => {
-
-  
   const navigate=useNavigate();
- 
-
- 
   return (
     <div className=''>
-      {/* <img src="assets/icon1.png"></img> */}
-{/* <img src=".../assets/pics/IMG_0636.jpg" > </img> */}
       <div className='text-center'>
-
-
-         {/*  */}
       <div>
-
-{/* EYE CATCHING LINEN */}
+                                    {/* EYE CATCHING LINEN */}
 <h1 className='text-4xl text-center bg-orange-400'>
-
 Welcome to food sectionmnn
-
 </h1>
-
-
-
-
-
-
-       </div>
-        {/*  */}
-              <div>
+  </div>
+   <div>
   {/* EYE CATCHING BANANA HAI USKE*/}
 <h2 className='mx-auto'>
   KAZIPET ---------------------------------WARANGAL
   {/* ISKE NEECHE CHOTA S LIKHENGE KM ME  */}
-</h2>
-
+           </h2>
              </div>
-
-
              {/*  */}
                <div onClick={()=>navigate("/food/filters")} className=' cursor-pointer bg-red-500'>
   EXPLORE WITH FILTERS
 
           </div>
-
-
-  
-
-
-                   {/*  */}
               <div className='flex-row'>
   {/* Cards */}
   {food.map((ele,i)=>(

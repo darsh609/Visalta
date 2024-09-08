@@ -12,6 +12,8 @@ import Food1 from "./Homes/food1";
 import { Order } from "./servicespage/Order";
 import { Travel } from "./servicespage/Travel";
 import { Rough } from "./datas/Rough";
+import Foodfilter from "./servicespage/foodfilter";
+
 
 function App() {
   return (
@@ -24,7 +26,7 @@ function App() {
       <Route path="worship" element={<Worship/>}/>
       <Route path="Traverse" element={<Traverse/>}/>
       <Route path="medical" element={<Medical/>}/>
-      <Route path="food/filters" element={<Foodfil/>}/>
+      <Route path="food/filters" element={<Foodfilter/>}/>
       <Route path="food1" element={<Food1/>}/>
       <Route path="Order" element={<Order/>}/>
       <Route path="Travel" element={<Travel/>}/>

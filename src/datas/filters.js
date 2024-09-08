@@ -18,7 +18,7 @@ export const filterData = [
     },
     {
       id: "5",
-      title: "Pure-Veg",
+      title: "Pure-veg",
     },
     {
       id: "6",
