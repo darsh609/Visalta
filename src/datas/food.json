@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 [
     
 
@@ -96,6 +94,11 @@
     "banquet hall Too",
     "Nearby(CMR-Shooping Mall)"
        ]
+          
+    
+    
+    
+    
     
     },
 
@@ -1272,7 +1275,7 @@
   {
     "Name":"Cream Stone",
     "Visit":"https://maps.app.goo.gl/btSvTLgtSFXd53dZ8",
-    "Img":"assets/FoodDp/icon57.jpg",
+    "Img":"/assets/FoodDp/icon57.jpg",
     "Timing":"10AM-12.30AM",
     "filters":[ 
         "Bakery-Items",
@@ -1444,7 +1447,7 @@
   {
     "Name":"Hotel Ashoka",
     "Visit":"https://maps.app.goo.gl/2jnSnqwJrEg8xPgLA",
-    "Img":"assets/FoodDp/icon66.jpg",
+    "Img":"/assets/FoodDp/icon66.jpg",
     "Timing":"12PM-9PM",
     "filters":[ 
         "Non-veg",
@@ -1488,7 +1491,6 @@
     ]
   },
 
-
   {
     "Name":"The Nawaab's Arabian restaurant",
     "Visit":"https://maps.app.goo.gl/DCrzGU7MuJSL6cLw8",
@@ -1510,8 +1512,6 @@
         "Near by(Paradise Biryani House)"
     ]
   },
-
-
 
   {
     "Name":"Food Costa",
@@ -1542,8 +1542,6 @@
         "Nearby(NIT-W)"
     ]
   },
-
-
 
   {
     "Name":"Le Cupper's Cafe",
@@ -1681,66 +1679,4 @@
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-
-
-
-          
-    
-    
-
-    
-
-
-    
-
-
-
-    
-        
-
-
-
-
-
-    
-
 ]
->>>>>>> 47171c5222014e16f56ebd854fa68e4f473b5b56
