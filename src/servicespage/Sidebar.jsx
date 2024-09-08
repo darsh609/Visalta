@@ -1,45 +1,45 @@
 // import { click } from '@testing-library/user-event/dist/click';
 import React, { useEffect, useState } from 'react'
-// import { RxCross1 } from "react-icons/rx";
+import { RxCross1 } from "react-icons/rx";
 export const Sidebar = (props) => {
     let restaurants=props.restaurants
     let allfilt=props.allfilt
     let filterData=props.filterData
     let setfilt=props.setfilt
     let setrest=props.setrest
+    ////////////
     const [clicked,setclicked]=useState([]);
     const[rough,setrough]=useState(false);
 
 
 
 
-       const emptythis=(()=>{
-        let u=rough
-        setrough(!u)
-        const arr=[]
-        setfilt(arr);
+    const emptythis=(()=>{
+    let u=rough
+    setrough(!u)
+    const arr=[]
+    setfilt(arr);
 
     })
 
     const filterHandler=((ele)=>{
         if(allfilt.includes(ele)){
-            alert("all ready included");
+            alert("already included");
 
             //NEED TO ADD TOAST
         }
         else{
-            let out=allfilt;
-
-        out.push(ele);
-        setfilt(out)
+        //    
+        setfilt(oldArray => [...oldArray, ele])
         console.log("filters=====>",allfilt)
 
-        let out2=clicked
-const v=ele
-console.log(v)
-        out2.push({[v]:"true"});
-        setclicked(out2)
-        console.log("testing==>",clicked)
+        // let out2=clicked
+        // const v=ele
+        // console.log(v)
+        // out2.push({[v]:"true"});
+        // setclicked(out2)
+        // console.log("testing==>",clicked)
+
 
         }
         
@@ -47,27 +47,26 @@ console.log(v)
 
     })
     const remove=((ele)=>{
-        let out2=clicked
-        out2.push({ele:"false"});
-        setclicked(out2)
+        setfilt(l => l.filter(item => item !== ele))
+        console.log("removed-new-arraay",allfilt)
         
 
     })
 
-    useEffect=(()=>{
-        const save=(()=>{
-            let x=[]
-            filterData.map((ele)=>(
+    // useEffect=(()=>{
+    //     const save=(()=>{
+    //         let x=[]
+    //         filterData.map((ele)=>(
             
-                x.push({[ele.title]:"false"})
+    //             x.push({[ele.title]:"false"})
       
-            ))
+    //         ))
       
-        }) 
+    //     }) 
         
       
  
-     },[])
+    //  },[])
 
      const checkcolor=((elem)=>{
        return allfilt.includes(elem)?true:false;
@@ -98,6 +97,8 @@ console.log(v)
             '>
                 Filters
             </h1>
+
+
             <div>
             {
         filterData.map( (data) => (
@@ -123,8 +124,8 @@ console.log(v)
               "bg-opacity-40 border-transparent "}
               `}
               onClick={()=>remove(data.title)}
-   >
-             {/* <RxCross1/> */}
+             >
+              <RxCross1 /> 
 
              </button>
              
