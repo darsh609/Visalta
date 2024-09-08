@@ -94,17 +94,12 @@
     "banquet hall Too",
     "Nearby(CMR-Shooping Mall)"
        ]
-          
-    
-    
-    
-    
     
     },
 
     {
         "Name":"Heart-spot",
-        "Img":"assets/FoodDp/icon4.jpg",
+        "Img":"/assets/FoodDp/icon4.jpg",
         "Visit":"https://maps.app.goo.gl/mzeMYgkMyEgwq7wk8",
         "Timing":"7AM-12AM",
         "filters":[ 
@@ -137,7 +132,7 @@
 
     {
         "Name":"Kadai Multi Cuisine Resturent",
-        "Img":"assets/FoodDp/icon5.jpg",
+        "Img":"/assets/FoodDp/icon5.jpg",
               "Visit":"https://maps.app.goo.gl/7C2ShEhaB6sRKYZG9",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -170,7 +165,7 @@
 
     {
         "Name":"Kadai Drive In",
-        "Img":"assets/FoodDp/icon6.jpg",
+        "Img":"/assets/FoodDp/icon6.jpg",
               "Visit":"https://maps.app.goo.gl/5oryMjk7BHuJAZR49",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -202,7 +197,7 @@
 
     {
         "Name":"Kitchen 1970's",
-        "Img":"assets/FoodDp/icon7.png",
+        "Img":"/assets/FoodDp/icon7.png",
               "Visit":"https://maps.app.goo.gl/CXaMUtNHeeNqbuqV7",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -232,7 +227,7 @@
 
     {
         "Name":"Paradise Biryani Hanamkonda",
-        "Img":"assets/FoodDp/icon8.jpeg",
+        "Img":"/assets/FoodDp/icon8.jpeg",
               "Visit":"https://maps.app.goo.gl/HxybmbhphAxiahqXA",
         "Timing":"11AM-11PM",
         "filters":[ 
@@ -261,7 +256,7 @@
 
     {
         "Name":"Paradise Biryani Warangal",
-        "Img":"assets/FoodDp/icon9.jpg",
+        "Img":"/assets/FoodDp/icon9.jpg",
               "Visit":"https://maps.app.goo.gl/UJfPetWhADhza9Py9",
         "Timing":"11AM-11PM",
         "filters":[ 
@@ -290,7 +285,7 @@
     
     {
         "Name":"Pizza Hut",
-        "Img":"assets/FoodDp/icon10.jpg",
+        "Img":"/assets/FoodDp/icon10.jpg",
               "Visit":"https://maps.app.goo.gl/FZp2pVmuHorFs9Qq7",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -320,7 +315,7 @@
 
     {
         "Name":"Platform 65-The train Theme",
-        "Img":"assets/FoodDp/icon11.jpg",
+        "Img":"/assets/FoodDp/icon11.jpg",
               "Visit":"https://maps.app.goo.gl/MT93SQLNuV9Qhuhm7",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -359,7 +354,7 @@
 
         
         "Name":"President Dhaba",
-        "Img":"assets/FoodDp/icon12.png",
+        "Img":"/assets/FoodDp/icon12.png",
         "Timing":"12.30PM-10.30PM",
        
         "Visit":"https://maps.app.goo.gl/xHkGDATUsqd9TLdx8",
@@ -387,7 +382,7 @@
 
     {
         "Name":"St.mary Bakery",
-        "Img":"assets/FoodDp/icon13.jpg",
+        "Img":"/assets/FoodDp/icon13.jpg",
               "Visit":"https://maps.app.goo.gl/G2QdqFmHXnxJcG258",
         "Timing":"10AM-11PM",
         "filters":[ 
@@ -411,7 +406,7 @@
 
     {
         "Name":"Zamindar Restaurant",
-        "Img":"assets/FoodDp/icon14.jpg",
+        "Img":"/assets/FoodDp/icon14.jpg",
               "Visit":"https://maps.app.goo.gl/6y7at8qHL77B2hWPA",
         "Timing":"12PM-11PM",
         "filters":[ 
@@ -448,7 +443,7 @@
     
     {
         "Name":"Hotel Rumaan's",
-        "Img":"assets/FoodDp/icon15.jpg",
+        "Img":"/assets/FoodDp/icon15.jpg",
         "Visit":"https://maps.app.goo.gl/DUJrSF1A9h4yhpyX6",
         "Timing":"12PM-11PM",
         "filters":[ 
@@ -478,7 +473,7 @@
     {
         "Name":"Hut Kitchen",
               "Visit":"https://maps.app.goo.gl/oUru5feJ9kbYqs3TA",
-              "Img":"assets/FoodDp/icon16.jpeg",
+              "Img":"/assets/FoodDp/icon16.jpeg",
         "Timing":"11AM-11PM",
         "filters":[ 
         "Affordable",
@@ -514,7 +509,7 @@
     {
         "Name":"Raiyanns",
               "Visit":"https://maps.app.goo.gl/N3NaQor5JsLYsX677",
-              "Img":"assets/FoodDp/icon17.jpg",
+              "Img":"/assets/FoodDp/icon17.jpg",
         "Timing":"12:30PM-11PM",
         "filters":[ 
         "Affordable",
@@ -546,7 +541,7 @@
     {
   "Name":"Chefs Table",
   "Visit":"https://maps.app.goo.gl/bbEp76gq9Vvw7P956",
-  "Img":"assets/FoodDp/icon18.jpg",
+  "Img":"/assets/FoodDp/icon18.jpg",
     "Timing":"11AM-11PM",
   "filters":[ 
       "Non-veg",
@@ -570,7 +565,7 @@
 {
     "Name":"Papa's Pizzeria",
     "Visit":"https://maps.app.goo.gl/aYz7qybkYn1iHnvH9",
-    "Img":"assets/FoodDp/icon19.jpg",
+    "Img":"/assets/FoodDp/icon19.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
       "Shakes",
@@ -586,7 +581,7 @@
   {
     "Name":"Prakruthi Hanamkonda",
     "Visit":"https://maps.app.goo.gl/1zKw3qqvLwPqPuy8A",
-    "Img":"assets/FoodDp/icon20.jpg",
+    "Img":"/assets/FoodDp/icon20.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
       "Party-Affordable",
@@ -609,7 +604,7 @@
   {
     "Name":"Prakruthi Warangal",
     "Visit":"https://maps.app.goo.gl/xW2T4gfdbQUwuMgC8",
-    "Img":"assets/FoodDp/icon21.jpg",
+    "Img":"/assets/FoodDp/icon21.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
         "Party-Affordable",
@@ -630,7 +625,7 @@
   {
     "Name":"Papadams Blue",
     "Visit":"https://maps.app.goo.gl/tdtgN8BHtyLL9QbH7",
-    "Img":"assets/FoodDp/icon22.jpg",
+    "Img":"/assets/FoodDp/icon22.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
       "Non-veg",
@@ -656,7 +651,7 @@
   {
     "Name":"Manar Kebab & Grills",
     "Visit":"https://maps.app.goo.gl/Tb8E6mTMWsHSaR5W9",
-    "Img":"assets/FoodDp/icon23.jpg",
+    "Img":"/assets/FoodDp/icon23.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
         "Party-Affordable",
@@ -677,7 +672,7 @@
   {
     "Name":"Red Bus Canteen",
     "Visit":"https://maps.app.goo.gl/kPyuuGgauEgBanmZ9",
-    "Img":"assets/FoodDp/icon24.jpg",
+    "Img":"/assets/FoodDp/icon24.jpg",
     "Timing":"7:30AM-10:30PM",
     "filters":[ 
         "Pure-veg",
@@ -700,7 +695,7 @@
   {
     "Name":"Red Bucket Biryani Hanamkonda",
     "Visit":"https://maps.app.goo.gl/WaYi8CcEgihV6HE29",
-    "Img":"assets/FoodDp/icon25.jpg",
+    "Img":"/assets/FoodDp/icon25.jpg",
     "Timing":"11AM-12:30AM",
     "filters":[ 
         "Non-veg",
@@ -715,7 +710,7 @@
   {
     "Name":"Red Bucket Biryani Warangal",
     "Visit":"https://maps.app.goo.gl/LNdPcmxjXmYvF1o98",
-    "Img":"assets/FoodDp/icon26.jpg",
+    "Img":"/assets/FoodDp/icon26.jpg",
     "Timing":"11AM-12:30AM",
     "filters":[ 
         "Non-veg",
@@ -729,7 +724,7 @@
   {
     "Name":"Belgian Waffels Co",
     "Visit":"https://maps.app.goo.gl/1kdXjKVFT7FVsDyY9",
-    "Img":"assets/FoodDp/icon27.jpg",
+    "Img":"/assets/FoodDp/icon27.jpg",
     "Timing":"10:30AM-10:30PM",
     "filters":[ 
         "Shakes",
@@ -747,7 +742,7 @@
   {
     "Name":"The ThickShake Factory ",
     "Visit":"https://maps.app.goo.gl/XbLGbXaVSMzjonhcA",
-    "Img":"assets/FoodDp/icon28.jpg",
+    "Img":"/assets/FoodDp/icon28.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
         "Shakes",
@@ -760,7 +755,7 @@
   {
     "Name":"Orugalla Biryani Subedari",
     "Visit":"https://maps.app.goo.gl/xRyUh3jNtyjKyQq57",
-    "Img":"assets/FoodDp/icon29.jpg",
+    "Img":"/assets/FoodDp/icon29.jpg",
     "Timing":"10:30AM-11PM",
     "filters":[ 
         "Non-veg",
@@ -775,7 +770,7 @@
   {
     "Name":"Orugalla Biryani Point ",
     "Visit":"https://maps.app.goo.gl/KzWs6bxUQ7GqCDah6",
-    "Img":"assets/FoodDp/icon30.jpg",
+    "Img":"/assets/FoodDp/icon30.jpg",
     "Timing":"10:30AM-10:30PM",
     "filters":[ 
        "Non-veg",
@@ -788,7 +783,7 @@
   {
     "Name":"Domino's Pizza Hanamkonda",
     "Visit":"https://maps.app.goo.gl/fSW4WA61Y7k9SHkJ7",
-    "Img":"assets/FoodDp/icon31.jpg",
+    "Img":"/assets/FoodDp/icon31.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
         "Western",
@@ -803,7 +798,7 @@
   {
     "Name":"Domino's Pizza Warangal",
     "Visit":"https://maps.app.goo.gl/MqjFAHHE1WK8MZ7Z9",
-    "Img":"assets/FoodDp/icon32.jpg",
+    "Img":"/assets/FoodDp/icon32.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
         "Western",
@@ -817,7 +812,7 @@
   {
     "Name":"Hyderabad Spice",
     "Visit":"https://maps.app.goo.gl/YEk7LR3bCTDDdRHd6",
-    "Img":"assets/FoodDp/icon33.jpg",
+    "Img":"/assets/FoodDp/icon33.jpg",
     "Timing":"12PM-10PM",
     "filters":[ 
         "Non-veg",
@@ -838,7 +833,7 @@
   {
     "Name":"21 Spice",
     "Visit":"https://maps.app.goo.gl/aUDDj8a3X6wihqUS6",
-    "Img":"assets/FoodDp/icon34.jpg",
+    "Img":"/assets/FoodDp/icon34.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
         "Party-Affordable",
@@ -859,7 +854,7 @@
   {
     "Name":"Eagles' Pizza",
     "Visit":"https://maps.app.goo.gl/WTzqqaVZNdKiu77h8",
-    "Img":"assets/FoodDp/icon35.jpg",
+    "Img":"/assets/FoodDp/icon35.jpg",
     "Timing":"10PM-12AM",
     "filters":[ 
         "Western",
@@ -872,7 +867,7 @@
   {
     "Name":"Coffee Couch",
     "Visit":"https://maps.app.goo.gl/pNAifcmpPHWxWwno8",
-    "Img":"assets/FoodDp/icon36.jpg",
+    "Img":"/assets/FoodDp/icon36.jpg",
     "Timing":"11PM-11PM",
     "filters":[ 
        "Cafe",
@@ -887,7 +882,7 @@
   {
     "Name":"The Coffee Lounge",
     "Visit":"https://maps.app.goo.gl/aUCM4qHfG17j2DAv7",
-    "Img":"assets/FoodDp/icon37.jpg",
+    "Img":"/assets/FoodDp/icon37.jpg",
     "Timing":"10:30AM-10:30PM",
     "filters":[ 
         "Party-Affordable",
@@ -910,7 +905,7 @@
   {
     "Name":"Chat 'N' Chill",
     "Visit":"https://maps.app.goo.gl/oeHVi9pQG3t8uMdt6",
-    "Img":"assets/FoodDp/icon38.jpg",
+    "Img":"/assets/FoodDp/icon38.jpg",
     "Timing":"12PM-10PM",
     "filters":[ 
       "Pure-veg",
@@ -933,7 +928,7 @@
   {
     "Name":"Broasto",
     "Visit":"https://maps.app.goo.gl/ZH6YeWJJgSB239Hx9",
-    "Img":"assets/FoodDp/icon39.jpg",
+    "Img":"/assets/FoodDp/icon39.jpg",
     "Timing":"11AM-11PM",
   "filters":[ 
       "Non-veg",
@@ -953,7 +948,7 @@
   {
     "Name":"Aranyam - The Jungle Theme Restaurent",
     "Visit":"https://maps.app.goo.gl/sTzhqLjzCNYqa4ax6",
-    "Img":"assets/FoodDp/icon40.png",
+    "Img":"/assets/FoodDp/icon40.png",
       "Timing":"11.30AM-11PM",
   "filters":[ 
       "Non-veg",
@@ -976,7 +971,7 @@
   {
     "Name":"Country Oven Bakery",
     "Visit":"https://maps.app.goo.gl/ujMfM5kHQMsT9qcb9",
-    "Img":"assets/FoodDp/icon41.jpg",
+    "Img":"/assets/FoodDp/icon41.jpg",
       "Timing":"9AM-11PM",
   "filters":[ 
       "Bakery-Items",
@@ -994,7 +989,7 @@
   {
     "Name":"Balaji Tiffin and Meals",
     "Visit":"https://maps.app.goo.gl/WLTpyXaXC8kjF5RBA",
-    "Img":"assets/FoodDp/icon42.png",
+    "Img":"/assets/FoodDp/icon42.png",
       "Timing":"6.30AM-9.30PM",
   "filters":[ 
       "Pure-veg",
@@ -1016,7 +1011,7 @@
   {
     "Name":"Blockbuster Kitchen",
     "Visit":"https://maps.app.goo.gl/BpY7jyaMJz3FAdC2A",
-    "Img":"assets/FoodDp/icon43.jpg",
+    "Img":"/assets/FoodDp/icon43.jpg",
       "Timing":"12PM-11PM",
   "filters":[ 
       "Party-Affordable",
@@ -1038,7 +1033,7 @@
   {
     "Name":"Food and Fire",
     "Visit":"https://maps.app.goo.gl/vsCNhPvsJ6nt4yjZ7",
-    "Img":"assets/FoodDp/icon44.jpg",
+    "Img":"/assets/FoodDp/icon44.jpg",
     "Timing":"11AM-11.30PM",
       "filters":[ 
           "Party-Affordable",
@@ -1062,7 +1057,7 @@
   {
     "Name":"Hotel Raiyaan's",
     "Visit":"https://maps.app.goo.gl/yBMPSXz9UJhVdUL1A",
-    "Img":"assets/FoodDp/icon45.jpg",
+    "Img":"/assets/FoodDp/icon45.jpg",
     "Timing":"12.30PM-11.30PM",
     "filters":[ 
         "Party-Affordable",
@@ -1081,7 +1076,7 @@
   {
     "Name":"Sadashiv Sweets and Bakery",
     "Visit":"https://maps.app.goo.gl/Gp8rb1AzcT2pmxgF6",
-    "Img":"assets/FoodDp/icon46.jpeg",
+    "Img":"/assets/FoodDp/icon46.jpeg",
     "Timing":"5AM-11PM",
     "filters":[ 
         "Pure-veg",
@@ -1102,7 +1097,7 @@
   {
     "Name":"3 Star Sweets & Bakery",
     "Visit":"https://maps.app.goo.gl/V9e4bAB3Sutv3TJCA",
-    "Img":"assets/FoodDp/icon47.jpeg",
+    "Img":"/assets/FoodDp/icon47.jpeg",
     "Timing":"10AM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1120,7 +1115,7 @@
   {
     "Name":"B.Tech Momo",
     "Visit":"https://maps.app.goo.gl/B1Rhy2pPia66EH588",
-    "Img":"assets/FoodDp/icon48.jpg",
+    "Img":"/assets/FoodDp/icon48.jpg",
     "Timing":"5PM-10PM",
     "filters":[ 
         "Non-veg",
@@ -1133,7 +1128,7 @@
   {
     "Name":"Skyla Family Resturent",
     "Visit":"https://maps.app.goo.gl/zccrdwr6heKGgruT7",
-    "Img":"assets/FoodDp/icon49.jpg",
+    "Img":"/assets/FoodDp/icon49.jpg",
     "Timing":"12PM-10.30PM",
     "filters":[ 
         "Pure-veg",
@@ -1150,7 +1145,7 @@
   {
     "Name":"Roll Over",
     "Visit":"https://maps.app.goo.gl/1xd7hxAYQUw5ZSdd8",
-    "Img":"assets/FoodDp/icon50.jpg",
+    "Img":"/assets/FoodDp/icon50.jpg",
     "Timing":"10AM-11PM",
     "filters":[ 
         "Party-Affordable",
@@ -1172,7 +1167,7 @@
   {
     "Name":"Ibaco IceCream",
     "Visit":"https://maps.app.goo.gl/CRueKobKTtoq4a6s8",
-    "Img":"assets/FoodDp/icon51.jpg",
+    "Img":"/assets/FoodDp/icon51.jpg",
     "Timing":"10AM-11PM",
     "filters":[ 
         "Bakery-Items",
@@ -1187,7 +1182,7 @@
   {
     "Name":"Shawarma House",
     "Visit":"https://maps.app.goo.gl/tHLykbudqSWztiVG8",
-    "Img":"assets/FoodDp/icon52.jpg",
+    "Img":"/assets/FoodDp/icon52.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1208,7 +1203,7 @@
   {
     "Name":"Tea Time",
     "Visit":"https://maps.app.goo.gl/1XRPzGh59TCPab7S8",
-    "Img":"assets/FoodDp/icon53.jpg",
+    "Img":"/assets/FoodDp/icon53.jpg",
     "Timing":"7.30AM-10.30PM",
     "filters":[ 
         "Chai and Chill",
@@ -1226,7 +1221,7 @@
   {
     "Name":"Punjabi Dhaba (P.D.)",
     "Visit":"https://maps.app.goo.gl/bMXsF7rwFsNaRR8Y9",
-    "Img":"assets/FoodDp/icon54.jpg",
+    "Img":"/assets/FoodDp/icon54.jpg",
     "Timing":"6PM-10PM",
     "filters":[ 
         "Party-Affordable",
@@ -1243,7 +1238,7 @@
   {
     "Name":"Marwadi mess",
     "Visit":"https://maps.app.goo.gl/PEeaXrQEWEHKpVPB8",
-    "Img":"assets/FoodDp/icon55.jpg",
+    "Img":"/assets/FoodDp/icon55.jpg",
     "Timing":"9AM-10PM",
     "filters":[ 
         "Pure-veg",
@@ -1258,7 +1253,7 @@
   {
     "Name":"Green Park",
     "Visit":"https://maps.app.goo.gl/mcwUAnCcTMUyFaJG9",
-    "Img":"assets/FoodDp/icon56.png",
+    "Img":"/assets/FoodDp/icon56.png",
     "Timing":"11.45AM-11PM",
     "filters":[ 
         "Party-Affordable",
@@ -1291,7 +1286,7 @@
   {
     "Name":"Sparrows Rooftop Cafe",
     "Visit":"https://maps.app.goo.gl/pwhx7THw79v6DQYQ7",
-    "Img":"assets/FoodDp/icon58.jpg",
+    "Img":"/assets/FoodDp/icon58.jpg",
     "Timing":"11AM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1311,7 +1306,7 @@
   {
     "Name":"Dine9 Arabian Multicuisine Restaurant",
     "Visit":"https://maps.app.goo.gl/FJX6KeZ2dk8rS7e27",
-    "Img":"assets/FoodDp/icon59.jpg",
+    "Img":"/assets/FoodDp/icon59.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
         "Party-Affordable",
@@ -1331,7 +1326,7 @@
   {
     "Name":"Manu Family Resturant",
     "Visit":"https://maps.app.goo.gl/QvJoHX3Hss4MhL6LA",
-    "Img":"assets/FoodDp/icon60.jpg",
+    "Img":"/assets/FoodDp/icon60.jpg",
     "Timing":"12.30PM-10.30PM",
     "filters":[ 
         "Biryani-Special",
@@ -1348,7 +1343,7 @@
   {
     "Name":"Grand Gayathri Restaurant",
     "Visit":"https://maps.app.goo.gl/yUjY4hqGg11wQ6XP7",
-    "Img":"assets/FoodDp/icon61.jpg",
+    "Img":"/assets/FoodDp/icon61.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1368,7 +1363,7 @@
   {
     "Name":"Stuti pure veg",
     "Visit":"https://maps.app.goo.gl/jsEUwFBMxyCZn9dE7",
-    "Img":"assets/FoodDp/icon62.jpg",
+    "Img":"/assets/FoodDp/icon62.jpg",
     "Timing":"11AM-11.30PM",
     "filters":[ 
         "Party-Affordable",
@@ -1386,7 +1381,7 @@
   {
     "Name":"Ratna Hotel and Resturent",
     "Visit":"https://maps.app.goo.gl/yXshZ2L7zUQb1Ygg8",
-    "Img":"assets/FoodDp/icon63.jpg",
+    "Img":"/assets/FoodDp/icon63.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
         "Non-veg",
@@ -1408,7 +1403,7 @@
   {
     "Name":"Mithaiwala Hanamkonda",
     "Visit":"https://maps.app.goo.gl/qnv4RL3BDh3i3wSr5",
-    "Img":"assets/FoodDp/icon64.jpg",
+    "Img":"/assets/FoodDp/icon64.jpg",
     "Timing":"10AM-9PM",
     "filters":[ 
         "Pure-veg",
@@ -1427,7 +1422,7 @@
   {
     "Name":"Mithaiwala Warangal",
     "Visit":"https://maps.app.goo.gl/uCmj82pZgQ1JGSq78",
-    "Img":"assets/FoodDp/icon65.jpg",
+    "Img":"/assets/FoodDp/icon65.jpg",
     "Timing":"12PM-11PM",
     "filters":[ 
       "Pure-veg",
