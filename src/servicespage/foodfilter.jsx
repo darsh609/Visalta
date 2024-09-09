@@ -3,6 +3,7 @@ import { filterData } from '../datas/filters'
 import { Sidebar } from './Sidebar'
 import food from '../datas/food.json'
 import Food from './food'
+import { Searchbarr } from './Searchbarr'
 
 
 const Foodfilter = () => {
@@ -12,6 +13,8 @@ const Foodfilter = () => {
     // const [is,setis]=useState(true)
     // const filterHandler((ele)=>{
     // })
+
+   
 
     useEffect(() => {
        setrest([])
@@ -40,6 +43,9 @@ const Foodfilter = () => {
 
   return (
     <div>
+      hloo bhai
+      <div className=' ml-[1200px]'><Searchbarr restaurants={restaurants} setrest={setrest}/></div>
+    
     <div>
        
        
@@ -53,7 +59,7 @@ const Foodfilter = () => {
  </div>
  <div>
   {
-    allfilt.length>0? 
+    allfilt?.length>0? 
 
     <div>{restaurants.map((ele,i)=>(
       <div key={i}>
@@ -148,7 +154,7 @@ const Foodfilter = () => {
     
   // ))
   }
-  <Food/>
+  <Food/> 
 
               
               </div>
