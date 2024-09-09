@@ -7,7 +7,7 @@ import Food from "./servicespage/food"
 import Traverse from "./Homes/traverse"
 import Medical from "./servicespage/medical"
 import  Worship  from "./servicespage/worship"
-import Foodfil from "./servicespage/foodfil";
+
 import Food1 from "./Homes/food1";
 import { Order } from "./servicespage/Order";
 import { Travel } from "./servicespage/Travel";

@@ -4,17 +4,19 @@ import food from '../datas/food.json'
 // import jhg from './assets/pics/fooddp/icon1.png'
 // import {jh}  from "./assets/IMG_0636.jpg"
 import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Foodcompo } from './Foodcompo';
 // const myobj=JSON.parse(food);
 
 const Food = () => {
+  
   const navigate=useNavigate();
   return (
     <div className=''>
       <div className='text-center'>
       <div>
                                     {/* EYE CATCHING LINEN */}
-<h1 className='text-4xl text-center bg-orange-400'>
-Welcome to food sectionmnn
+       <h1 className='text-4xl text-center bg-orange-400'>
+         Welcome to food sectionmnn
 </h1>
   </div>
    <div>
@@ -29,58 +31,8 @@ Welcome to food sectionmnn
   EXPLORE WITH FILTERS
 
           </div>
-              <div className='flex-row'>
-  {/* Cards */}
-  {food.map((ele,i)=>(
-    <div key={i}>
-
-    <div className=''>
-    <img src={ele.Img}></img>
-      {/* IMage */}
-      {/* <img src="icon1.png"> </img>  */}
-    </div>
-
-
-    <div>
-      {/* Name */}
-        {ele.Name}
-        <div className='  bg-blue-500'>
-          {/* arrow  for visit */}
-       <a href={ele.Visit} target="_blank"> 
-       {/* arrow */}
-       click here
-       </a>
-          </div>
-
-          <div>
-            {ele.Timing}
-            </div>
-        
-      
-        </div>
-
-
-    <div className=''>
-      {/* tags */}
-        <div className=''>
-        {ele.filters + " "}
-        </div>
-       
-     </div>
-
-
-      </div>
-
-    
-  ))
-
-  }
-
-              </div>
-
-
-
-
+              
+<Foodcompo food={food}/>
 
       </div>
 
