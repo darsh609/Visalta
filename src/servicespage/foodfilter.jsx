@@ -126,7 +126,7 @@ const Foodfilter = () => {
     food.filter((ele)=>{
         const searchTerm=search.toLowerCase()
           const ans=ele.Name.toLowerCase()
-          return( searchTerm && ans.startsWith(searchTerm)&& ans!==searchTerm);
+          return( searchTerm && ans.startsWith(searchTerm));
       }
       ).slice(0,5).map((ele,i)=>(
         <div key={i}>
