@@ -330,7 +330,7 @@
              "Party-Affordable" ,
     "Non-Veg",
     "Veg",
-    "Special Sea food",
+    "Sea food Special",
     "Ice Cream",
     "sweets",
     "Milkshakes",
@@ -373,7 +373,8 @@
     "Family Restaurant",
     
        "Biryani-Special",
-       "Cold-Drink",       "Chinese",
+       "Cold-Drink",      
+        "Chinese",
        "Favourite",
        "Veg|non-Veg",
     
@@ -551,7 +552,7 @@
   "filters":[ 
       "Non-veg",
       "Biryani-Special",
-      "Shawarma-Special",
+      "Shawarma",
       "Non-Veg Special",
       "Shakes",
       "North-Indian",
@@ -592,7 +593,7 @@
       "Party-Affordable",
       "Non-veg",
       "Biryani-Special",
-      "Seafood",
+      "Sea food Special",
       "Non-Veg Special",
       "North-Indian",
       "Favourite",
@@ -822,7 +823,7 @@
     "filters":[ 
         "Non-veg",
       "Biryani-Special",
-      "Seafood",
+      "Sea food Special",
       "Non-Veg Special",
       "North-Indian",
       "South-Indian",
@@ -843,7 +844,7 @@
     "filters":[ 
         "Party-Affordable",
       "Non-veg",
-      "Seafood",
+      "Sea food Special",
       "Non-Veg Special",
       "North-Indian",
       "South-Indian",
@@ -1191,12 +1192,11 @@
     "Timing":"11AM-11PM",
     "filters":[ 
         "Non-veg",
-        "Shawarma-Special",
+        "Shawarma",
         "Bakery-Items",
         "North-Indian",
         "Ice-Creams",
         "Chinese",
-        "Shakes",
         "Cold-Drink",
         "Affordable",
         "Family Restaurant",
@@ -1447,7 +1447,7 @@
   {
     "Name":"Hotel Ashoka",
     "Visit":"https://maps.app.goo.gl/2jnSnqwJrEg8xPgLA",
-    "Img":"/assets/FoodDp/icon66.jpg",
+    "Img":"/assets/FoodDp/icon66.png",
     "Timing":"12PM-9PM",
     "filters":[ 
         "Non-veg",
