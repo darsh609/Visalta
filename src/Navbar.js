@@ -33,7 +33,7 @@ export const Navbar=(props)=> {
           <div className='majorList flex  gap-x-14' >
             
               <button onClick={()=> navigate("/")} className='mb-10 text-xl font-semibold   hover:text-lightBlue'>
-                  Home
+                  Homeeee
               </button>
               
             
