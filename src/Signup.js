@@ -1,17 +1,16 @@
 import React from 'react'
 import Template from './components/Template'
 
-
-const Login = ({setIsLoggedIn}) => {
+const Signup = ({setIsLoggedIn}) => {
   return (
     <Template
-    title = "Welcome Back" 
+    title = "Join the millions learning to code with studyNotion for free"
     desc1 = "Build skill for Today, Tomorrow and Beyond"
     desc2 = "Education to future-proof your career"
-    formtype = "login"
+    formtype = "signup"
     setIsLoggedIn = {setIsLoggedIn}
-    />
+   />
   )
 }
 
-export default Login
+export default Signup

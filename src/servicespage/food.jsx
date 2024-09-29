@@ -5,6 +5,7 @@ import food from '../datas/food.json'
 // import {jh}  from "./assets/IMG_0636.jpg"
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { Foodcompo } from './Foodcompo';
+
 // const myobj=JSON.parse(food);
 
 const Food = () => {
