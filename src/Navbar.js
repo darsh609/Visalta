@@ -19,9 +19,9 @@ export const Navbar=(props)=> {
 
   let setIsLoggedIn = props.setIsLoggedIn;
 
-  const toggle_mode = ()=> {
-     theme === 'light' ? setTheme('dark') : setTheme('light');
-  }
+  // const toggle_mode = ()=> {
+  //    theme === 'light' ? setTheme('dark') : setTheme('light');
+  // }
   
     return (
     <div className="navbar" >
@@ -33,7 +33,7 @@ export const Navbar=(props)=> {
           <div className='majorList flex  gap-x-14' >
             
               <button onClick={()=> navigate("/")} className='mb-10 text-xl font-semibold   hover:text-lightBlue'>
-                  Homeeee
+                  Home
               </button>
               
             
@@ -83,9 +83,9 @@ export const Navbar=(props)=> {
           }
           
           
-        <div className='px-10 py-5'>
+        {/* <div className='px-10 py-5'>
           <img onClick={()=>{toggle_mode()}} src={ theme === 'light' ? toggle_light : toggle_dark} alt=""  className='toggle_icon w-8 mt-1 right-1.5' />
-        </div>
+        </div> */}
       
 
      

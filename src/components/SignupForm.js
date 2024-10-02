@@ -29,13 +29,23 @@ const SignupForm = ({setIsLoggedIn}) => {
         if(formdata.password != formdata.confirmPassword) {
             toast.error("passwords do not match");
 
+            setIsLoggedIn(false);
+            toast.error("account could not created")
+            const accountData ={
+                ...formdata
+    
+            };
+
         }
+        else{
         setIsLoggedIn(true);
         toast.success("account created")
         const accountData ={
             ...formdata
 
         };
+    }
+        
         
           
     }
