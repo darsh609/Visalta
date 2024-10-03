@@ -32,14 +32,14 @@ export const Navbar=(props)=> {
         </div>
           <div className='majorList flex  gap-x-14' >
             
-              <button onClick={()=> navigate("/")} className='mb-10 text-xl font-semibold   hover:text-lightBlue'>
-                  Home
+              <button onClick={()=> navigate("Sell")} className='mb-10 text-xl font-semibold   hover:text-lightBlue'>
+                  Sell
               </button>
               
             
             
-              <button onClick={()=> navigate("Explore")} className='mb-10 text-xl font-semibold  hover:text-lightBlue'>
-                  Explore
+              <button onClick={()=> navigate("Contact")} className='mb-10 text-xl font-semibold  hover:text-lightBlue'>
+                  Contact
               </button>
               
           

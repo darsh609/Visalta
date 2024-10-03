@@ -17,7 +17,10 @@ import { Rough } from "./datas/Rough";
 import Foodfilter from "./servicespage/foodfilter";
 import { useState } from "react";
 import About from "./servicespage/About";
-import Explore from "./servicespage/Explore";
+import Contact from "./servicespage/Contact";
+import StarsCanvas from "./servicespage/Stars";
+// import Sell from "./servicespage/Sell";
+import Hero from "./servicespage/Hero";
 // import DarkMode from "./components/DarkMode/DarkMode";
 
 function App() {
@@ -26,12 +29,12 @@ function App() {
   const[isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-  <div className={`app ${theme}`}>
+  <div className={` relative z-0 bg-primary h-screen`}>
     <div> 
      
 
           {/* <DarkMode/> */}
-          <Navbar theme={theme} setTheme= {setTheme} isLoggedIn={isLoggedIn} setIsLoggedIn ={setIsLoggedIn}/>
+          
           
           <Routes>
             
@@ -42,7 +45,9 @@ function App() {
 
           <Route path="/" element={<Home/>}/>
           <Route path="About" element={<About/>}/>
-          <Route path="Explore" element={<Explore/>}/>
+
+          <Route path="Contact" element={<Contact/>}/>
+          <Route path="Sell" element={<Hero/>}/>
           <Route path="food" element={<Food/>}/>
           <Route path="worship" element={<Worship/>}/>
           <Route path="Traverse" element={<Traverse/>}/>
@@ -53,6 +58,8 @@ function App() {
           <Route path="Travel" element={<Travel/>}/>
           <Route path="rough" element={<Rough/>}/>
         </Routes>
+
+        <StarsCanvas/>
 
      
 

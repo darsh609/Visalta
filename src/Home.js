@@ -1,11 +1,13 @@
 import React from 'react'
-
+import "./App.css";
+import {Navbar} from "./Navbar";
 // import nitw from "./assets/IMG_0636.jpg"
 import Service from "./services"
 
 export const Home = () => {
   return (
     <div className='home'>
+      <Navbar/>
       
       <div > 
         <div className="relative"  >
