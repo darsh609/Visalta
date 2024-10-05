@@ -29,7 +29,7 @@ function App() {
   const[isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-  <div className={` relative z-0 bg-primary h-screen`}>
+  <div className={` relative z-0 bg-zinc-900 h-screen`}>
     <div> 
      
 

@@ -75,65 +75,77 @@ const Contact2 = () => {
       >
               </motion.div> */}
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+      
+       <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className='flex-[0.75]   p-8  rounded-2xl'
       >
-        {/* <EarthCanvas /> */}
-        <p className={styles.sectionSubText}>Sell the Products</p>
-        <h3 className={styles.sectionHeadText}>with ease.</h3>
-          <form
+        <p className={styles.sectionSubText}>Sell Your Items</p>
+        <h3 className={styles.sectionHeadText}>Here.</h3>
+
+        <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-12 flex flex-col gap-8 opacity-100'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
-            <input
+            
+           
+             <div className="border-b-2  cursor-pointer border-white hover:border-[rgb(226,124,54)]">
+             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              placeholder="What's your good nam"
+              className=' py-4 px-6 w-full bg-zinc-900 opacity-80 placeholder:text-secondary text-white rounded-lg outline-none  font-medium'
             />
+
+</div>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your email</span>
+          
+            <div className=" border-b-2 w-full cursor-pointer border-white hover:border-[rgb(226,124,54)]">
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className=' hover:border-[rgb(226,124,54)] w-full bg-zinc-900 opacity-80 py-4 px-6  text-white rounded-lg outline-none border-none font-medium'
             />
+            </div>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea
-              rows={7}
+          
+             <div className="border-b-2  cursor-pointer border-white hover:border-[rgb(226,124,54)]">
+             <textarea
+              rows={2}
               name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='  py-4 px-6 bg-zinc-900 opacity-80 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+</div>
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className=' py-3 px-8 rounded-xl outline-none w-fit text-white font-bold 
+            hover:bg-[rgb(226,124,54)] hover:text-white  transition-all duration-500'
           >
-            {loading ? "Post..." : "Post"}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
-
       </motion.div>
 
 
     </div>
-
+<StarsCanvas/>
     </div>
     
   );

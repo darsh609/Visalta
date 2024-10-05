@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {AiOutlineEye, AiOutlineEyeInvisible} from "react-icons/ai"
 import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-hot-toast'
+import Contact2 from '../servicespage/Contact2'
 
 const LoginForm = ({setIsLoggedIn}) => {
     const navigate = useNavigate();
@@ -27,7 +28,8 @@ const LoginForm = ({setIsLoggedIn}) => {
         navigate("/dashboard")
     }
   return (
-    <form onSubmit={submitHandler}>
+    <div>
+ {/* <form onSubmit={submitHandler}>
         <label>
             <p>
               Email Address<sup>*</sup>
@@ -69,7 +71,10 @@ const LoginForm = ({setIsLoggedIn}) => {
         <button>
             Sign In
         </button>
-    </form>
+    </form> */}
+    <Contact2/>
+    </div>
+   
   )
 }
 
