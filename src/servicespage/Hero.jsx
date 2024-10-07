@@ -9,7 +9,7 @@ import Navbar from "../Navbar";
 const Hero = () => {
   return (
 
-    <div className=" w-[1800px] ">
+    <div className=" w-[1800px]">
 
       {/* <Navbar/> */}
    <div className={`relative w-full -z-1`}>

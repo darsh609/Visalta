@@ -66,10 +66,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="relative z-0 ">
+    <div className="relative h-full w-full z-0 bg-orange-800 ">
         
         <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
