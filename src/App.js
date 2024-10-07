@@ -17,7 +17,7 @@ import { Travel } from "./servicespage/Travel";
 import { Rough } from "./datas/Rough";
 import Foodfilter from "./servicespage/foodfilter";
 import { useState } from "react";
-import About from "./servicespage/About";
+// import About from "./servicespage/About";
 import Contact from "./servicespage/Contact";
 import StarsCanvas from "./servicespage/Stars";
 // import Sell from "./servicespage/Sell";
@@ -40,8 +40,8 @@ function App() {
             <Route path="signup" element = {<Signup/>}/>
             {/* <Route path="dashboard" element = {<Dashboard/>}/> */}
            
-            
-            <Route path="insight" element={<About/>}/>
+{/*             
+            <Route path="insight" element={<About/>}/> */}
             <Route path="/" element={<Home/>}/>
             <Route path="contact" element={<Contact/>}/>
             <Route path="sell" element={<Hero/>}/>
