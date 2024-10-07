@@ -66,10 +66,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="relative z-0 ">
-        
+    <div className="relative z-0 bg-zinc-900 ">
+        <StarsCanvas/>
         <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={` flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -81,7 +81,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8 opacity-100'
+          className=' flex flex-col gap-8 opacity-100'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -148,8 +148,7 @@ const Contact = () => {
 
     </div>
 
-    <StarsCanvas/>
-
+    
     </div>
     
   );

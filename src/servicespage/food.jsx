@@ -12,7 +12,7 @@ const Food = () => {
   
   const navigate=useNavigate();
   return (
-    <div className=''>
+    <div className='bg-blue-600'>
       <div className='text-center'>
       <div>
                                     {/* EYE CATCHING LINEN */}
