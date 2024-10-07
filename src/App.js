@@ -1,4 +1,5 @@
-import "./App.css";
+import React from 'react'
+
 import {Navbar} from "./Navbar";
 import {Home} from "./Home"
 import Login from "./Login"
@@ -22,48 +23,39 @@ import StarsCanvas from "./servicespage/Stars";
 // import Sell from "./servicespage/Sell";
 import Hero from "./servicespage/Hero";
 // import DarkMode from "./components/DarkMode/DarkMode";
+import LocomotiveScroll from 'locomotive-scroll';
+
 
 function App() {
+  
 
-  const[theme, setTheme] = useState('light');
-  const[isLoggedIn, setIsLoggedIn] = useState(false);
-
+  // const locomotiveScroll = new LocomotiveScroll();
+ 
   return (
-  <div className={` relative z-0 bg-zinc-900 h-screen`}>
-    <div> 
-     
-
-          {/* <DarkMode/> */}
-          
-          
+  <div  className={`relative min-h-screen z-0 overflow-x-hidden`} >
           <Routes>
             
-          <Route path="login" element={<Login setIsLoggedIn ={setIsLoggedIn}/>} />
-          {/* <Route path="signup" element={<Signup setIsLoggedIn ={setIsLoggedIn}/>} /> */}
-          <Route path="signup" element = {<Signup setIsLoggedIn ={setIsLoggedIn}/>}/>
-          {/* <Route path="dashboard" element = {<Dashboard/>}/> */}
-
-          <Route path="/" element={<Home/>}/>
-          <Route path="About" element={<About/>}/>
-
-          <Route path="Contact" element={<Contact/>}/>
-          <Route path="Sell" element={<Hero/>}/>
-          <Route path="food" element={<Food/>}/>
-          <Route path="worship" element={<Worship/>}/>
-          <Route path="Traverse" element={<Traverse/>}/>
-          <Route path="medical" element={<Medical/>}/>
-          <Route path="food/filters" element={<Foodfilter/>}/>
-          <Route path="food1" element={<Food1/>}/>
-          <Route path="Order" element={<Order/>}/>
-          <Route path="Travel" element={<Travel/>}/>
-          <Route path="rough" element={<Rough/>}/>
-        </Routes>
-
-        <StarsCanvas/>
-
-     
-
-    </div>
+            <Route path="login" element={<Login/>} />
+            {/* <Route path="signup" element={<Signup setIsLoggedIn ={setIsLoggedIn}/>} /> */}
+            <Route path="signup" element = {<Signup/>}/>
+            {/* <Route path="dashboard" element = {<Dashboard/>}/> */}
+           
+            
+            <Route path="insight" element={<About/>}/>
+            <Route path="/" element={<Home/>}/>
+            <Route path="contact" element={<Contact/>}/>
+            <Route path="sell" element={<Hero/>}/>
+            <Route path="food" element={<Food/>}/>
+            <Route path="worship" element={<Worship/>}/>
+            <Route path="Traverse" element={<Traverse/>}/>
+            <Route path="medical" element={<Medical/>}/>
+            <Route path="food/filters" element={<Foodfilter/>}/>
+            <Route path="food1" element={<Food1/>}/>
+            <Route path="Order" element={<Order/>}/>
+            <Route path="Travel" element={<Travel/>}/>
+            <Route path="rough" element={<Rough/>}/>
+          </Routes>
+  
   </div>  );
 }
 

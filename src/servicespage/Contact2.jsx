@@ -65,7 +65,7 @@ const Contact2 = () => {
   };
 
   return (
-    <div className="relative z-0">
+    <div className="relative z-0 w-full">
         <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -78,7 +78,7 @@ const Contact2 = () => {
       
        <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75]   p-8  rounded-2xl'
+        className='flex-[0.75]  rounded-2xl'
       >
         <p className={styles.sectionSubText}>Sell Your Items</p>
         <h3 className={styles.sectionHeadText}>Here.</h3>
@@ -86,7 +86,7 @@ const Contact2 = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8 opacity-100'
+          className='mt-12 w-full flex flex-col gap-8 opacity-100'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -98,8 +98,8 @@ const Contact2 = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good nam"
-              className=' py-4 px-6 w-full bg-zinc-900 opacity-80 placeholder:text-secondary text-white rounded-lg outline-none  font-medium'
+              placeholder="What's your good name"
+              className=' w-full py-4 px-6  bg-zinc-900 opacity-80 placeholder:text-secondary text-white rounded-lg outline-none  font-medium'
             />
 
 </div>
@@ -145,7 +145,7 @@ const Contact2 = () => {
 
 
     </div>
-<StarsCanvas/>
+{/* <StarsCanvas/> */}
     </div>
     
   );
