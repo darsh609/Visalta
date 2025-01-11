@@ -48,23 +48,10 @@ import Marquee from './servicespage/Marquee';
 import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
-// import LocomotiveScroll from 'locomotive-scroll';
-import { Controller, Scene } from 'react-scrollmagic';
+
 
 export const Home = () => {
-  // const scrollRef = useRef(null);
-  
-  // useEffect(() => {
-  //   const scrollInstance = new LocomotiveScroll({
-  //     el: scrollRef.current,
-  //     smooth: true,
-  //     // other options like direction, multiplier, etc.
-  //   });
-
-  //   return () => {
-  //     if (scrollInstance) scrollInstance.destroy();
-  //   };
-  // }, []);
+  const scrollRef = useRef(null);
   
   const navigate = useNavigate();
 
@@ -97,14 +84,10 @@ export const Home = () => {
    
  })
 
- //data-scroll-container ref={scrollRef} data-scroll-speed="5"
-
   return (
-    // <Controller>
-    //   <Scene duration={3000} >
-      <div   className='w-full h-screen text-white'>
+      <div className='w-full h-screen text-white'>
       <Navbar/>
-    <div  ref ={gsapRef} className='LandingPage w-full h-screen bg-zinc-900 pt-1'>
+      <div  ref ={gsapRef} className='LandingPage w-full h-screen bg-zinc-900 pt-1'>
         <div className='textstructure mt-40 px-20'>
             
                 {["Navigating", "Student's", "life" ].map((item,index)=>{
@@ -150,9 +133,6 @@ export const Home = () => {
    <FeatureCard/>
 
 </div>
-    //   </Scene>
-    // </Controller>
-   
   )
 }
 

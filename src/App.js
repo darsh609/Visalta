@@ -22,7 +22,7 @@ import Contact from "./servicespage/Contact";
 import StarsCanvas from "./servicespage/Stars";
 // import Sell from "./servicespage/Sell";
 import Hero from "./servicespage/Hero";
-import { Link, animateScroll as scroll } from 'react-scroll';
+// import { Link, animateScroll as scroll } from 'react-scroll';
 import { Login ,SignUp } from './Login';
 import UploadItemForm from './servicespage/Sell_Item';
 // import DarkMode from "./components/DarkMode/DarkMode";
