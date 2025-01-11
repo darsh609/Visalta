@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* [data-scroll-container] {
+  overflow: hidden;
+} */
+/* html{
+ 
+} */
+locomotive-scroll.css
+[data-scroll-container] {
+  overflow: hidden;
+}
 * {
   margin: 0;
   padding: 0;

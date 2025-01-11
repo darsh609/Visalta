@@ -89,7 +89,7 @@ const Contact2 = () => {
           className='mt-12 w-full flex flex-col gap-8 opacity-100'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</span>
             
            
              <div className="border-b-2  cursor-pointer border-white hover:border-[rgb(226,124,54)]">

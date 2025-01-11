@@ -2,15 +2,15 @@ import React from 'react'
 
 import {Navbar} from "./Navbar";
 import {Home} from "./Home"
-import Login from "./Login"
-import Signup from "./Signup"
+
+// import Signup from "./Signup"
 import Dashboard from "./Dashboard";
 import {Route,Routes} from "react-router-dom"
 import Food from "./servicespage/food"
 import Traverse from "./Homes/traverse"
 import Medical from "./servicespage/medical"
 import  Worship  from "./servicespage/worship"
-
+import { useEffect,useRef } from 'react';
 import Food1 from "./Homes/food1";
 import { Order } from "./servicespage/Order";
 import { Travel } from "./servicespage/Travel";
@@ -22,29 +22,57 @@ import Contact from "./servicespage/Contact";
 import StarsCanvas from "./servicespage/Stars";
 // import Sell from "./servicespage/Sell";
 import Hero from "./servicespage/Hero";
+import { Link, animateScroll as scroll } from 'react-scroll';
+import { Login ,SignUp } from './Login';
+import UploadItemForm from './servicespage/Sell_Item';
 // import DarkMode from "./components/DarkMode/DarkMode";
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
+// import 'locomotive-scroll/src/locomotive-scroll.scss';
+// import LocomotiveScroll from "locomotive-scroll";
 
+  //  let options = {
+  //       el: currentScrollContainer,
+  //       smooth: true,
+  //       getSpeed: true,
+  //       getDirection: true,
+  //   };
+  //   scroll = new LocomotiveScroll(options);
 
 function App() {
+  //  const scrollRef = useRef(null);
   
+  //  const scrollRef = useRef(null);
 
-  // const locomotiveScroll = new LocomotiveScroll();
+  //  useEffect(() => {
+  //    // Initialize Locomotive Scroll
+  //    const locoScroll = new LocomotiveScroll({
+  //      el: scrollRef.current,
+  //      smooth: true,
+  //      smoothMobile: true, // Enable smooth scrolling on mobile if needed
+  //     //  resetNativeScroll: true,
+  //    });
+ 
+  //    return () => {
+  //      if (locoScroll) locoScroll.destroy(); // Clean up on unmount
+  //    };
+  //  });
+//   const locomotiveScroll = new LocomotiveScroll();
+//  //
  
   return (
-  <div  className={`relative min-h-screen z-0 overflow-x-hidden`} >
+  <div   className={`relative min-h-screen z-0 overflow-x-hidden`} >
           <Routes>
             
             <Route path="login" element={<Login/>} />
             {/* <Route path="signup" element={<Signup setIsLoggedIn ={setIsLoggedIn}/>} /> */}
-            <Route path="signup" element = {<Signup/>}/>
+            <Route path="signup" element = {<SignUp/>}/>
             {/* <Route path="dashboard" element = {<Dashboard/>}/> */}
            
 {/*             
             <Route path="insight" element={<About/>}/> */}
             <Route path="/" element={<Home/>}/>
             <Route path="contact" element={<Contact/>}/>
-            <Route path="sell" element={<Hero/>}/>
+            <Route path="sell" element={<UploadItemForm/>}/>
             <Route path="food" element={<Food/>}/>
             <Route path="worship" element={<Worship/>}/>
             <Route path="Traverse" element={<Traverse/>}/>
