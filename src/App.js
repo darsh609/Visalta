@@ -24,6 +24,7 @@ import StarsCanvas from "./servicespage/Stars";
 import Hero from "./servicespage/Hero";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { Login ,SignUp } from './Login';
+import UploadItemForm from './servicespage/Sell_Item';
 // import DarkMode from "./components/DarkMode/DarkMode";
 // import LocomotiveScroll from 'locomotive-scroll';
 // import 'locomotive-scroll/src/locomotive-scroll.scss';
@@ -71,7 +72,7 @@ function App() {
             <Route path="insight" element={<About/>}/> */}
             <Route path="/" element={<Home/>}/>
             <Route path="contact" element={<Contact/>}/>
-            <Route path="sell" element={<Hero/>}/>
+            <Route path="sell" element={<UploadItemForm/>}/>
             <Route path="food" element={<Food/>}/>
             <Route path="worship" element={<Worship/>}/>
             <Route path="Traverse" element={<Traverse/>}/>

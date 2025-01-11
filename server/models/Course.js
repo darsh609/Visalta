@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 
 const coursesSchema = new mongoose.Schema(
 	{
+		//item==course bro
 	courseName: { type: String },
 
 
@@ -18,20 +19,6 @@ const coursesSchema = new mongoose.Schema(
 	address: {
 		type: String,
 	},
-
-	// courseContent: [
-	// 	{
-	// 		type: mongoose.Schema.Types.ObjectId,
-	// 		ref: "Section"
-	// 	}
-	// ],
-
-	// ratingAndReviews: [
-	// 	{
-	// 		type: mongoose.Schema.Types.ObjectId,
-	// 		ref: "RatingAndReview"
-	// 	}
-	// ],
 
 	price: {
 		type: Number,
