@@ -49,6 +49,8 @@ import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
 import RatingReviewForm from './servicespage/RatingReviewForm';
+import Footer from './Footer';
+
 
 
 export const Home = () => {
@@ -135,6 +137,8 @@ export const Home = () => {
 
    <RatingReviewForm/>
 
+<Footer/>
+   
 </div>
   )
 }
