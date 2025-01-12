@@ -25,6 +25,7 @@ import Hero from "./servicespage/Hero";
 // import { Link, animateScroll as scroll } from 'react-scroll';
 import { Login ,SignUp } from './Login';
 import UploadItemForm from './servicespage/Sell_Item';
+import BuyPage from './servicespage/Buy';
 // import DarkMode from "./components/DarkMode/DarkMode";
 // import LocomotiveScroll from 'locomotive-scroll';
 // import 'locomotive-scroll/src/locomotive-scroll.scss';
@@ -82,6 +83,7 @@ function App() {
             <Route path="Order" element={<Order/>}/>
             <Route path="Travel" element={<Travel/>}/>
             <Route path="rough" element={<Rough/>}/>
+            <Route path="/Buy" element={<BuyPage/>}/>
           </Routes>
   
   </div>  );

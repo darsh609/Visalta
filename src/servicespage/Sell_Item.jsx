@@ -56,7 +56,7 @@ const UploadItemForm = ({ userName }) => {
         transition={{ duration: 1 }}
       >
         <h1 className="text-6xl font-bold text-gray-100 tracking-wide mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
-          Empower Through Sharing
+          Empower Through Sharinggg
         </h1>
         <p className="text-gray-400 italic text-2xl" style={{ fontFamily: "'Roboto', sans-serif" }}>
           Unlock possibilities by sharing your resources with peers.
