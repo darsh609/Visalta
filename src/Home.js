@@ -48,6 +48,7 @@ import Marquee from './servicespage/Marquee';
 import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
+import RatingReviewForm from './servicespage/RatingReviewForm';
 
 
 export const Home = () => {
@@ -131,6 +132,8 @@ export const Home = () => {
     <Marquee/>
    
    <FeatureCard/>
+
+   <RatingReviewForm/>
 
 </div>
   )
