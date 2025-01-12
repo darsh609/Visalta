@@ -48,10 +48,15 @@ import Marquee from './servicespage/Marquee';
 import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
+
+import Footer from './Footer';
+
+=======
 import RatingReviewForm from './servicespage/RatingReviewForm';
  
 import FeedbackSlider from './servicespage/FeedbackSlider';
 import Footer from './Footer';
+
 
 export const Home = () => {
   const scrollRef = useRef(null);
@@ -135,12 +140,17 @@ export const Home = () => {
    
    <FeatureCard/>
 
+
+   {/* <Footer/> */}
+
+=======
    <FeedbackSlider/>
 
    <RatingReviewForm/>
 
 <Footer/>
    
+
 </div>
   )
 }
