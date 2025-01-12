@@ -5,7 +5,7 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { StrictMode } from 'react'
-
+import "@fortawesome/fontawesome-free/css/all.min.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   

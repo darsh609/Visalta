@@ -49,8 +49,9 @@ import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
 import RatingReviewForm from './servicespage/RatingReviewForm';
+ 
 import FeedbackSlider from './servicespage/FeedbackSlider';
-
+import Footer from './Footer';
 
 export const Home = () => {
   const scrollRef = useRef(null);
@@ -138,6 +139,8 @@ export const Home = () => {
 
    <RatingReviewForm/>
 
+<Footer/>
+   
 </div>
   )
 }
