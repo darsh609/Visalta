@@ -49,6 +49,7 @@ import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
 import RatingReviewForm from './servicespage/RatingReviewForm';
+import FeedbackSlider from './servicespage/FeedbackSlider';
 
 
 export const Home = () => {
@@ -132,6 +133,8 @@ export const Home = () => {
     <Marquee/>
    
    <FeatureCard/>
+
+   <FeedbackSlider/>
 
    <RatingReviewForm/>
 
