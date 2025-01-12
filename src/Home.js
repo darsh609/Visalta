@@ -49,9 +49,9 @@ import FeatureCard from './servicespage/FeatureCard';
 import { motion } from 'framer-motion';
 import { useEffect} from 'react';
 
-import Footer from './Footer';
+// import Footer from './Footer';
 
-=======
+
 import RatingReviewForm from './servicespage/RatingReviewForm';
  
 import FeedbackSlider from './servicespage/FeedbackSlider';
