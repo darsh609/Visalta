@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Star, Send, Sparkles, X, Loader } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Ballpit from '../blocks/Backgrounds/Ballpit/Ballpit';
 
 const MAX_CHARS = 500;
 
@@ -37,8 +38,10 @@ const RatingReviewForm = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center p-4 bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900">
-      <motion.div
+    <div className=" w-full flex items-center justify-center p-4 ">
+     
+      
+     <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         className="w-full max-w-xl"
@@ -214,7 +217,20 @@ const RatingReviewForm = () => {
             </motion.div>
           )}
         </AnimatePresence>
+
+
+        
       </motion.div>
+     
+
+
+
+
+     
+
+
+      
+
     </div>
   );
 };
