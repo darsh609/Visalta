@@ -155,6 +155,8 @@ exports.login = async (req, res) => {
 			);
 
 			// Save token to user document in database
+			////////////////confucionnnnnnnnnnnnnn
+			user=user.toObject();
 			user.token = token;
 			/////////////////ISKA MTLB BTAOOOOOOOOOOOOOOOO
 			user.password = undefined;
