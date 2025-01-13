@@ -1,101 +1,38 @@
 // InsightPage.js
 import React from "react";
 import { motion } from "framer-motion";
+import TeamSlider from "./TeamSlider";
 
 const InsightPage = () => {
   return (
     <div className="bg-zinc-900 text-white min-h-screen p-6">
       {/* About Visalta Section */}
-      <section className="text-center py-10">
-        <motion.h1
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-4xl font-bold mb-4"
-        >
-          About Visalta
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
-          className="text-lg max-w-2xl mx-auto"
-        >
-          Visalta is a project aimed at empowering individuals and organizations with tailored insights
-          and innovative solutions. Our mission is to bridge technology and creativity for impactful results.
-        </motion.p>
-      </section>
+      <section className="text-center py-20 text-white">
+  <motion.h1
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1, type: "spring", stiffness: 120 }}
+    className="text-6xl font-extrabold mb-6 tracking-wide drop-shadow-lg"
+  >
+    About <span className="bg-clip-text text-transparent bg-green-400 ">Visalta</span>
+  </motion.h1>
+  <motion.p
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 1.5 }}
+    className="text-xl max-w-3xl mx-auto leading-relaxed font-medium drop-shadow-sm"
+  >
+    Visalta is a project aimed at empowering individuals and organizations with tailored insights
+    and innovative solutions. Our mission is to bridge technology and creativity for impactful results.
+  </motion.p>
+</section>
+
 
       {/* Team Section */}
-      <section className="py-10">
-        <motion.h2
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-3xl font-bold text-center mb-6"
-        >
-          Meet the Team
-        </motion.h2>
-
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Lead Developer */}
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="bg-gray-800 rounded-lg p-6 text-center shadow-lg"
-          >
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Lead Developer"
-              className="w-24 h-24 mx-auto rounded-full mb-4"
-            />
-            <h3 className="text-xl font-bold">Aarav Kumar</h3>
-            <p className="text-gray-400">Lead Developer</p>
-          </motion.div>
-
-          {/* Frontend Developer */}
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="bg-gray-800 rounded-lg p-6 text-center shadow-lg"
-          >
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Frontend Developer"
-              className="w-24 h-24 mx-auto rounded-full mb-4"
-            />
-            <h3 className="text-xl font-bold">Ishita Verma</h3>
-            <p className="text-gray-400">Frontend Developer</p>
-          </motion.div>
-
-          {/* JSON Specialist */}
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="bg-gray-800 rounded-lg p-6 text-center shadow-lg"
-          >
-            <img
-              src="https://via.placeholder.com/150"
-              alt="JSON Specialist"
-              className="w-24 h-24 mx-auto rounded-full mb-4"
-            />
-            <h3 className="text-xl font-bold">Rohan Singh</h3>
-            <p className="text-gray-400">Information Specialist</p>
-          </motion.div>
-
-          {/* Asset Collector */}
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="bg-gray-800 rounded-lg p-6 text-center shadow-lg"
-          >
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Asset Collector"
-              className="w-24 h-24 mx-auto rounded-full mb-4"
-            />
-            <h3 className="text-xl font-bold">Priya Sharma</h3>
-            <p className="text-gray-400">Asset Collector</p>
-          </motion.div>
-        </div>
-      </section>
-
+      <div className="flex items-center justify-center h-screen" >
+      <TeamSlider/>
+      </div>
+      
       {/* Contact Us Section */}
       <section className="py-10">
         <motion.h2
