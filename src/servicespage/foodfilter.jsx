@@ -25,8 +25,7 @@ const Foodfilter = () => {
         setrest(old=>[...old,ele])
 
         allfilt?.map((e)=>{
-          // console.log(ele.filters,"->")
-          // console.log(e,"(((")
+          // console.log(ele.fil
           
           if(!ele.filters
             .includes(e)){

@@ -58,23 +58,10 @@ export const Sidebar = (props) => {
     //         let x=[]
     //         filterData.map((ele)=>(
             
-    //             x.push({[ele.title]:"false"})
-      
-    //         ))
-      
-    //     }) 
-        
-      
- 
-    //  },[])
-
+    
      const checkcolor=((elem)=>{
-       return allfilt.includes(elem)?true:false;
-
- 
+       return allfilt.includes(elem)?true:false; 
      })
- 
-
 
   return (
     /////////////
@@ -83,7 +70,7 @@ export const Sidebar = (props) => {
             <button
              className={`button text-lg px-2 py-1 rounded-md font-medium 
              text-white text-center bg-amber-300 hover:bg-opacity-50 border-2 transition-all duration-300 mx-auto
-             ${allfilt.length>0 ? 
+             ${allfilt?.length>0 ? 
                 "bg-opacity-60 border-transparent" :
                 "bg-opacity-40  border-black "}
     
@@ -101,14 +88,14 @@ export const Sidebar = (props) => {
 
             <div>
             {
-        filterData.map( (data) => (
+        filterData?.map( (data) => (
             <div key={data.id} className='flex '>
                 <button
             className={`text-lg px-2 py-1 rounded-md font-medium 
             text-white bg-black hover:bg-opacity-30 border-2 transition-all duration-300
 
 
-            ${allfilt.includes(data.title)? 
+            ${allfilt?.includes(data.title)? 
             "bg-opacity-60  border-white" :
             "bg-opacity-40 border-transparent "}
             `}
@@ -119,7 +106,7 @@ export const Sidebar = (props) => {
              <button
               className={`text-lg px-2 py-1 rounded-md font-medium 
               text-white bg-black hover:bg-opacity-30 border-2 transition-all duration-300
-              ${allfilt.includes(data.title) ? 
+              ${allfilt?.includes(data.title) ? 
               "bg-opacity-60 border-white" :
               "bg-opacity-40 border-transparent "}
               `}

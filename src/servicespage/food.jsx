@@ -1,44 +1,27 @@
-import React, { useState,useEffect } from 'react'
-import food from '../datas/food.json'
-// import nitw from '../assets/pics/IMG_0636.jpg'
-// import jhg from './assets/pics/fooddp/icon1.png'
-// import {jh}  from "./assets/IMG_0636.jpg"
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import food from '../datas/food.json';
+import { Link, useNavigate } from 'react-router-dom';
 import { Foodcompo } from './Foodcompo';
 
-// const myobj=JSON.parse(food);
-
 const Food = () => {
-  
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   return (
-    <div className='bg-blue-600'>
-      <div className='text-center'>
-      <div>
-                                    {/* EYE CATCHING LINEN */}
-       <h1 className='text-4xl text-center bg-orange-400'>
-         Welcome to food sectionmnn
-</h1>
-  </div>
-   <div>
-  {/* EYE CATCHING BANANA HAI USKE*/}
-<h2 className='mx-auto'>
-  KAZIPET ---------------------------------WARANGAL
-  {/* ISKE NEECHE CHOTA S LIKHENGE KM ME  */}
-           </h2>
-             </div>
-             {/*  */}
-               <div onClick={()=>navigate("/food/filters")} className=' cursor-pointer bg-red-500'>
-  EXPLORE WITH FILTERS
-
-          </div>
-              
-<Foodcompo food={food}/>
-
+    <div className="bg-gray-900 min-h-screen text-white">
+      <div className="text-center py-10">
+        {/* EYE-CATCHING HEADER */}
+        <h1 className="text-5xl font-bold bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
+          Welcome to the Food Section
+        </h1>
+        <h2 className="text-xl mt-4">KAZIPET &mdash; WARANGAL</h2>
+        <div
+          onClick={() => navigate('/food/filters')}
+          className="mt-8 cursor-pointer bg-red-500 px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-600 transition"
+        >
+          Explore with Filters
+        </div>
       </div>
-
-     
+      <Foodcompo food={food} />
     </div>
-  )
-}
+  );
+};
 export default Food;
