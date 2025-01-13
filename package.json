@@ -9,6 +9,7 @@
     "@react-spring/web": "^9.7.5",
     "@react-three/drei": "^9.114.0",
     "@react-three/fiber": "^8.17.9",
+    "concurrently": "^9.1.2",
     "framer-motion": "^11.17.0",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^5.0.0-beta.21",
@@ -41,7 +42,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server":"cd server && npm run dev",
+    "dev":"concurrently -n \"client,server\" -c \"bgBlue.bold,bgMagenta.bold\" \"npm start\" \"npm run server\""
   },
   "eslintConfig": {
     "extends": [

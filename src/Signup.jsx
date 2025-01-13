@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import "./Auth.css"; // Add your CSS file for styling
+import "./Auth.css";
 import { FaEye, FaEyeSlash, FaUserShield, FaGraduationCap } from "react-icons/fa";
 
-const Auth = ({ isLogin }) => {
+const SignUp = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     email: "",
     password: "",
     accountType: "",
-    image: null,
   });
   const [showPassword, setShowPassword] = useState(false);
 
   const handleChange = (e) => {
-    const { name, value, type, files } = e.target;
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: type === "file" ? files[0] : value,
+      [name]: value,
     });
   };
 
@@ -28,7 +27,7 @@ const Auth = ({ isLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Data: ", formData);
+    console.log("Sign Up Data: ", formData);
   };
 
   return (
@@ -65,7 +64,7 @@ const Auth = ({ isLogin }) => {
         transition={{ type: "spring", stiffness: 120 }}
       >
         <h2 style={{ color: "#ffffff", marginBottom: "1rem", fontSize: "2rem" }}>
-          {isLogin ? "Welcome Back to Visalta" : "Join the Visalta Community"}
+          Join the Visalta Community
         </h2>
 
         <p
@@ -77,87 +76,82 @@ const Auth = ({ isLogin }) => {
             fontStyle: "italic",
           }}
         >
-          {isLogin
-            ? "Shaping the future, one student at a time."
-            : "Empowering students to achieve greatness."}
+          Empowering students to achieve greatness.
         </p>
 
-        {!isLogin && (
-          <>
-            <input
-              type="text"
-              name="firstName"
-              placeholder="First Name"
-              value={formData.firstName}
-              onChange={handleChange}
-              required
-              className="input-field"
-              style={{
-                marginBottom: "1rem",
-                width: "100%",
-                padding: "0.8rem",
-                borderRadius: "5px",
-                border: "none",
-                background: "#333",
-                color: "#fff",
-              }}
-            />
-            <input
-              type="text"
-              name="lastName"
-              placeholder="Last Name"
-              value={formData.lastName}
-              onChange={handleChange}
-              required
-              className="input-field"
-              style={{
-                marginBottom: "1rem",
-                width: "100%",
-                padding: "0.8rem",
-                borderRadius: "5px",
-                border: "none",
-                background: "#333",
-                color: "#fff",
-              }}
-            />
-            <div style={{ marginBottom: "1.5rem", display: "flex", justifyContent: "space-between" }}>
-              <div
-                onClick={() => handleAccountTypeChange("Admin")}
-                style={{
-                  flex: 1,
-                  padding: "1rem",
-                  marginRight: "0.5rem",
-                  borderRadius: "10px",
-                  background: formData.accountType === "Admin" ? "#5e60ce" : "#333",
-                  color: "#fff",
-                  cursor: "pointer",
-                  textAlign: "center",
-                  transition: "background 0.3s",
-                }}
-              >
-                <FaUserShield size={24} style={{ marginBottom: "0.5rem" }} />
-                <p style={{ margin: 0 }}>Admin</p>
-              </div>
-              <div
-                onClick={() => handleAccountTypeChange("Student")}
-                style={{
-                  flex: 1,
-                  padding: "1rem",
-                  marginLeft: "0.5rem",
-                  borderRadius: "10px",
-                  background: formData.accountType === "Student" ? "#5e60ce" : "#333",
-                  color: "#fff",
-                  cursor: "pointer",
-                  textAlign: "center",
-                  transition: "background 0.3s",
-                }}
-              >
-                <FaGraduationCap size={24} style={{ marginBottom: "0.5rem" }} />
-                <p style={{ margin: 0 }}>Student</p>
-              </div>
-            </div>
-          </>
-        )}
+        <input
+          type="text"
+          name="firstName"
+          placeholder="First Name"
+          value={formData.firstName}
+          onChange={handleChange}
+          required
+          className="input-field"
+          style={{
+            marginBottom: "1rem",
+            width: "100%",
+            padding: "0.8rem",
+            borderRadius: "5px",
+            border: "none",
+            background: "#333",
+            color: "#fff",
+          }}
+        />
+        <input
+          type="text"
+          name="lastName"
+          placeholder="Last Name"
+          value={formData.lastName}
+          onChange={handleChange}
+          required
+          className="input-field"
+          style={{
+            marginBottom: "1rem",
+            width: "100%",
+            padding: "0.8rem",
+            borderRadius: "5px",
+            border: "none",
+            background: "#333",
+            color: "#fff",
+          }}
+        />
+
+        <div style={{ marginBottom: "1.5rem", display: "flex", justifyContent: "space-between" }}>
+          <div
+            onClick={() => handleAccountTypeChange("Admin")}
+            style={{
+              flex: 1,
+              padding: "1rem",
+              marginRight: "0.5rem",
+              borderRadius: "10px",
+              background: formData.accountType === "Admin" ? "#5e60ce" : "#333",
+              color: "#fff",
+              cursor: "pointer",
+              textAlign: "center",
+              transition: "background 0.3s",
+            }}
+          >
+            <FaUserShield size={24} style={{ marginBottom: "0.5rem" }} />
+            <p style={{ margin: 0 }}>Admin</p>
+          </div>
+          <div
+            onClick={() => handleAccountTypeChange("Student")}
+            style={{
+              flex: 1,
+              padding: "1rem",
+              marginLeft: "0.5rem",
+              borderRadius: "10px",
+              background: formData.accountType === "Student" ? "#5e60ce" : "#333",
+              color: "#fff",
+              cursor: "pointer",
+              textAlign: "center",
+              transition: "background 0.3s",
+            }}
+          >
+            <FaGraduationCap size={24} style={{ marginBottom: "0.5rem" }} />
+            <p style={{ margin: 0 }}>Student</p>
+          </div>
+        </div>
 
         <input
           type="email"
@@ -217,6 +211,7 @@ const Auth = ({ isLogin }) => {
           className="submit-btn"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
+          onClick={handleSubmit}
           style={{
             width: "100%",
             padding: "0.8rem",
@@ -228,22 +223,15 @@ const Auth = ({ isLogin }) => {
             cursor: "pointer",
           }}
         >
-          {isLogin ? "Login" : "Sign Up"}
+          Sign Up
         </motion.button>
 
-        {isLogin ? (
-          <p style={{ color: "#aaa", marginTop: "1rem" }}>
-            Don't have an account? <a href="/signup" style={{ color: "#5e60ce" }}>Sign Up</a>
-          </p>
-        ) : (
-          <p style={{ color: "#aaa", marginTop: "1rem" }}>
-            Already have an account? <a href="/login" style={{ color: "#5e60" }}>Login</a>
-          </p>
-        )}
+        <p style={{ color: "#aaa", marginTop: "1rem" }}>
+          Already have an account? <a href="/login" style={{ color: "#5e60ce" }}>Login</a>
+        </p>
       </motion.div>
     </motion.div>
   );
 };
 
-export const Login = () => <Auth isLogin={true} />;
-export const SignUp = () => <Auth isLogin={false} />;
+export default SignUp;
