@@ -1,5 +1,5 @@
 const Course = require("../models/Course");
-const Category = require("../models/Category");
+// const Category = require("../models/Category");
 const User = require("../models/User");
 const { uploadImageToCloudinary } = require("../utils/imageUploader");
 // Function to create a new course
@@ -14,8 +14,8 @@ exports.createCourse = async (req, res) => {
 			courseDescription,
 			address,
 			price,
-			tag,
-			category,
+			tag
+			
 		} = req.body;
 
 		// Get thumbnail image from request files
@@ -28,8 +28,7 @@ exports.createCourse = async (req, res) => {
 			!address ||
 			!price ||
 			!tag ||
-			!thumbnail ||
-			!category
+			!thumbnail 
 		) {
 			return res.status(400).json({
 				success: false,
@@ -52,13 +51,13 @@ exports.createCourse = async (req, res) => {
 		}
 
 		// Check if the tag given is valid
-		const categoryDetails = await Category.findById(category);
-		if (!categoryDetails) {
-			return res.status(404).json({
-				success: false,
-				message: "Category Details Not Found",
-			});
-		}
+		// const categoryDetails = await Category.findById(category);
+		// if (!categoryDetails) {
+		// 	return res.status(404).json({
+		// 		success: false,
+		// 		message: "Category Details Not Found",
+		// 	});
+		// }
 		// Upload the Thumbnail to Cloudinary
 		const thumbnailImage = await uploadImageToCloudinary(
 			thumbnail,
@@ -73,7 +72,6 @@ exports.createCourse = async (req, res) => {
 			address: address,
 			price,
 			tag: tag,
-			category: categoryDetails._id,
 			thumbnail: thumbnailImage.secure_url,
 			
 		});
@@ -91,15 +89,15 @@ exports.createCourse = async (req, res) => {
 			{ new: true }
 		);
 		// Add the new course to the Categories
-		await Category.findByIdAndUpdate(
-			{ _id: category },
-			{
-				$push: {
-					course: newCourse._id,
-				},
-			},
-			{ new: true }
-		);
+		// await Category.findByIdAndUpdate(
+		// 	{ _id: category },
+		// 	{
+		// 		$push: {
+		// 			course: newCourse._id,
+		// 		},
+		// 	},
+		// 	{ new: true }
+		// );
 		// Return the new course and a success message
 		res.status(200).json({
 			success: true,
@@ -162,7 +160,7 @@ exports.getCourseDetails = async (req, res) => {
                                                 },
                                             }
                                         )
-                                        .populate("category")
+                                        // .populate("category")
                                         //.populate("ratingAndreviews")
                                         // .populate({
                                         //     path:"courseContent",

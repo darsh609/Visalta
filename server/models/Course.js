@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 
 const coursesSchema = new mongoose.Schema(
 	{
-		//item==course bro
 	courseName: { type: String },
 
 
@@ -19,6 +18,20 @@ const coursesSchema = new mongoose.Schema(
 	address: {
 		type: String,
 	},
+
+	// courseContent: [
+	// 	{
+	// 		type: mongoose.Schema.Types.ObjectId,
+	// 		ref: "Section"
+	// 	}
+	// ],
+
+	// ratingAndReviews: [
+	// 	{
+	// 		type: mongoose.Schema.Types.ObjectId,
+	// 		ref: "RatingAndReview"
+	// 	}
+	// ],
 
 	price: {
 		type: Number,
@@ -35,11 +48,11 @@ const coursesSchema = new mongoose.Schema(
 		required: true,
 	},
 
-	category: {
-		type: mongoose.Schema.Types.ObjectId,
-		// required: true,
-		ref: "Category",
-	},
+	// category: {
+	// 	type: mongoose.Schema.Types.ObjectId,
+	// 	// required: true,
+	// 	ref: "Category",
+	// },
 
 	//STUDENT LIKEDDD
 	studentsEnrolled: [
