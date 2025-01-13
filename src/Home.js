@@ -1,41 +1,4 @@
-// import React from 'react'
-// import "./App.css";
-// import {Navbar} from "./Navbar";
-// // import nitw from "./assets/IMG_0636.jpg"
-// import Service from "./services"
 
-// export const Home = () => {
-//   return (
-//     <div className='home'>
-//       <Navbar/>
-      
-//       <div > 
-//         <div className="relative"  >
-        
-//           {/* <img src="./assets/IMG_0636.jpg" className="opacity-50"></img> */}
-            
-  
-//         <div className="relative" >
-//           {/* <img src="./assets/IMG_0636.jpg" className="opacity-50 "></img> */}
-//           {/* <div className="absolute top-60  font-bold -left-3" >
-//           HLOO VISALTA 
-//         </div> */}
-
-//         </div>
-        
-//       </div>
-
-
-//       <div className="w-[1100px] mx-auto">
-//         <Service/>
-        
-
-//       </div>
-//       </div>
-//     </div>
-
-//   )
-// }
 
 import React, { useRef } from 'react'
 import { FaArrowUpLong } from "react-icons/fa6";
@@ -56,6 +19,7 @@ import RatingReviewForm from './servicespage/RatingReviewForm';
  
 import FeedbackSlider from './servicespage/FeedbackSlider';
 import Footer from './Footer';
+import Ballpit from './blocks/Backgrounds/Ballpit/Ballpit';
 
 
 export const Home = () => {
@@ -142,12 +106,31 @@ export const Home = () => {
 
 
    {/* <Footer/> */}
+   {/* bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 */}
 
-=======
+
+   <div className= ' bg-slate-600'>
    <FeedbackSlider/>
-
+   <div  className='  -z-10'>
    <RatingReviewForm/>
+   </div>
+   
+   
+         <div className=' z-10' style={{position: 'relative', overflow: 'hidden', maxHeight: '400px', width: '100%'}}>
+  <Ballpit
+    count={80}
+    gravity={2}
+    friction={0.8}
+    wallBounce={0.6}
+    followCursor={true}
+  />
+     </div>
 
+   </div>
+
+    
+
+   
 <Footer/>
    
 

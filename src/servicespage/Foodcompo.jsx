@@ -1,61 +1,32 @@
-import React from 'react'
+import React from 'react';
 
-export const Foodcompo = (props) => {
-
-    let required=props.food
+export const Foodcompo = ({ food }) => {
   return (
-    <div>
-             <div className='flex-row'>
-  {/* Cards */}
-  <h1>I M COMPONENET </h1>
-  {required.map((ele,i)=>(
-    <div key={i}>
-
-    <div className=''>
-    <img src={ele.Img}></img>
-      {/* IMage */}
-      {/* <img src="icon1.png"> </img>  */}
-    </div>
-
-
-    <div>
-      {/* Name */}
-        {ele.Name}
-        <div className='  bg-blue-500'>
-          {/* arrow  for visit */}
-       <a href={ele.Visit} target="_blank"> 
-       {/* arrow */}
-       click here
-       </a>
-          </div>
-
-          <div>
-            {ele.Timing}
+    <div className="p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {food.map((ele, i) => (
+          <div key={i} className="bg-gray-800 p-4 rounded-lg shadow-lg">
+            <img
+              src={ele.Img}
+              alt={ele.Name}
+              className="w-full h-48 object-cover rounded-lg"
+            />
+            <div className="mt-4 text-center">
+              <h3 className="text-xl font-bold">{ele.Name}</h3>
+              <a
+                href={ele.Visit}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Visit
+              </a>
+              <p className="text-gray-400 mt-2">{ele.Timing}</p>
+              <div className="mt-2 text-sm text-gray-500">{ele.filters.join(', ')}</div>
             </div>
-        
-      
-        </div>
-
-
-    <div className=''>
-      {/* tags */}
-        <div className=''>
-        {ele.filters + " "}
-        </div>
-       
-     </div>
-
-
+          </div>
+        ))}
       </div>
-
-    
-  ))
-
-  }
-
-              </div>
-
-
     </div>
-  )
-}
+  );
+};

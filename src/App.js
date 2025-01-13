@@ -4,7 +4,6 @@ import {Navbar} from "./Navbar";
 import {Home} from "./Home"
 
 // import Signup from "./Signup"
-import Dashboard from "./Dashboard";
 import {Route,Routes} from "react-router-dom"
 import Food from "./servicespage/food"
 import Traverse from "./Homes/traverse"
@@ -26,6 +25,7 @@ import Hero from "./servicespage/Hero";
 import { Login ,SignUp } from './Login';
 import UploadItemForm from './servicespage/Sell_Item';
 import BuyPage from './servicespage/Buy';
+import Insighthome from './insights/insighthome';
 // import DarkMode from "./components/DarkMode/DarkMode";
 // import LocomotiveScroll from 'locomotive-scroll';
 // import 'locomotive-scroll/src/locomotive-scroll.scss';
@@ -69,8 +69,8 @@ function App() {
             <Route path="signup" element = {<SignUp/>}/>
             {/* <Route path="dashboard" element = {<Dashboard/>}/> */}
            
-{/*             
-            <Route path="insight" element={<About/>}/> */}
+            
+            <Route path="insight" element={<Insighthome/>}/>
             <Route path="/" element={<Home/>}/>
             <Route path="contact" element={<Contact/>}/>
             <Route path="sell" element={<UploadItemForm/>}/>

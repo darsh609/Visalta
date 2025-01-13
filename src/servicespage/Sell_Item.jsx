@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaTag, FaFileImage, FaPhoneAlt, FaRupeeSign, FaMapMarkerAlt, FaBoxOpen, FaCommentDots, FaPaperPlane } from "react-icons/fa";
+import SplitText from "../blocks/TextAnimations/SplitText/SplitText";
+
+
+const handleAnimationComplete = () => {
+  console.log('All letters have animated!');
+};
 
 const UploadItemForm = ({ userName }) => {
   const [formData, setFormData] = useState({
@@ -49,6 +55,9 @@ const UploadItemForm = ({ userName }) => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black to-gray-900 text-white flex flex-col justify-center items-center p-4">
+
+      
+
       <motion.div
         className="mb-6 text-center"
         initial={{ opacity: 0, y: -20 }}
@@ -56,7 +65,19 @@ const UploadItemForm = ({ userName }) => {
         transition={{ duration: 1 }}
       >
         <h1 className="text-6xl font-bold text-gray-100 tracking-wide mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
-          Empower Through Sharinggg
+         
+          
+<SplitText
+  text=" Empower Through Sharing"
+  className="text-2xl font-semibold text-center"
+  delay={100}
+  animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+  animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+  easing="easeOutCubic"
+  threshold={0.2}
+  rootMargin="-50px"
+  onLetterAnimationComplete={handleAnimationComplete}
+/>
         </h1>
         <p className="text-gray-400 italic text-2xl" style={{ fontFamily: "'Roboto', sans-serif" }}>
           Unlock possibilities by sharing your resources with peers.
@@ -225,6 +246,8 @@ const UploadItemForm = ({ userName }) => {
           }
         }
       `}</style>
+
+
     </div>
   );
 };
