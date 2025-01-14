@@ -2,12 +2,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import TeamSlider from "./TeamSlider";
+import VisaltaSection from "./VisaltaSection";
 
 const InsightPage = () => {
   return (
     <div className="bg-zinc-900 text-white min-h-screen p-6">
       {/* About Visalta Section */}
-      <section className="text-center py-20 text-white">
+      
+      <VisaltaSection/>
+      {/* <section className="text-center py-20 text-white">
   <motion.h1
     initial={{ opacity: 0, scale: 0.8 }}
     animate={{ opacity: 1, scale: 1 }}
@@ -25,7 +28,7 @@ const InsightPage = () => {
     Visalta is a project aimed at empowering individuals and organizations with tailored insights
     and innovative solutions. Our mission is to bridge technology and creativity for impactful results.
   </motion.p>
-</section>
+</section> */}
 
 
       {/* Team Section */}
