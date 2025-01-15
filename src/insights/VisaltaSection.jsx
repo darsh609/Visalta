@@ -56,12 +56,11 @@ const SlidingFeatures = () => {
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-[#1db954]">Who are We</h2>
           <h1 className="text-5xl font-bold leading-tight">
-            Empowering Coders,<br />
-            Enabling Dreams
+            Navigating,<br />
+            Students life
           </h1>
           <p className="text-gray-300 text-lg">
-            Unlock your potential with our community-driven platform dedicated to empowering coders of all levels. 
-            Discover how we're shaping the future of coding education.
+          Visalta enhances campus life at NIT Warangal with curated guides to eateries, events, serene spots, and skill-building resources. From weekend getaways to technical prep, we make your college journey fun, easy, and enriching.
           </p>
           <button className="bg-[#1db954] hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
             Let's Connect
@@ -98,6 +97,42 @@ const SlidingFeatures = () => {
           </div>
         </div>
       </div>
+    {/* venn diagram */}
+    <div className="p-12 w-full max-w-3xl mx-auto ">
+      <div className="relative h-[500px] w-full">
+        {/* First circle - Experience */}
+        <div className="absolute top-12 left-1/4 transform -translate-x-1/4 w-64 h-64 rounded-full bg-blue-500/50 flex items-center justify-center mix-blend-screen transition-all duration-300 hover:scale-105 cursor-pointer">
+          <div className="text-center transform -translate-x-8 p-4">
+            <h3 className="font-bold text-black text-xl mb-1">Experience</h3>
+            <p className="text-black text-sm">Campus Life</p>
+          </div>
+        </div>
+
+        {/* Second circle - Explore */}
+        <div className="absolute top-12 right-1/4 transform translate-x-1/4 w-64 h-64 rounded-full bg-emerald-500/50 flex items-center justify-center mix-blend-screen transition-all duration-300 hover:scale-105 cursor-pointer">
+          <div className="text-center transform translate-x-8 p-4">
+            <h3 className="font-bold text-black text-xl mb-1">Explore</h3>
+            <p className="text-black text-sm">Opportunities</p>
+          </div>
+        </div>
+
+        {/* Third circle - Enjoy */}
+        <div className="absolute top-40 left-1/2 transform -translate-x-1/2 w-64 h-64 rounded-full bg-fuchsia-500/50 flex items-center justify-center mix-blend-screen transition-all duration-300 hover:scale-105 cursor-pointer">
+          <div className="text-center transform translate-y-16 p-4">
+            <h3 className="font-bold text-black text-xl mb-1">Enjoy</h3>
+            <p className="text-black text-sm">Community</p>
+          </div>
+        </div>
+
+        {/* Center intersection text */}
+        <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
+          <div className="p-6">
+            <h2 className="font-bold text-3xl text-black">Visalta</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </div>
   );
 };

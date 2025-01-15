@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DarshImage from '../assets/Darsh.png';
 import AshishImage from '../assets/Ashish.png';
 import VivekImage from '../assets/Vivek.png';
+import LivoImage from '../assets/Livo.png';
 
 const ProfileCards = () => {
   const [currentCard, setCurrentCard] = useState(0);
@@ -24,11 +25,11 @@ const ProfileCards = () => {
       role: 'Data Architect',
       image: VivekImage
     },
-    // {
-    //   name: 'JAMES WILSON',
-    //   role: 'Visual Designer',
-    //   image: '/api/placeholder/400/500'
-    // }
+    {
+      name: 'LIVO RANJAN',
+      role: 'Visual Designer',
+      image: LivoImage
+    }
   ];
   
   const handleCardClick = () => {
@@ -100,7 +101,7 @@ const ProfileCards = () => {
           {/* Card number */}
           <div className="absolute bottom-8 right-8">
             <span className="text-4xl font-bold text-white">
-              {currentCard + 1}/3
+              {currentCard + 1}/4
             </span>
           </div>
         </div>
