@@ -78,6 +78,7 @@ function App() {
             <Route path="contact" element={<Contact/>}/>
             <Route path="sell" element={<UploadItemForm/>}/>
             <Route path="food" element={<Food/>}/>
+            
             <Route path="worship" element={<Worship/>}/>
             <Route path="Traverse" element={<Traverse/>}/>
             <Route path="medical" element={<Medical/>}/>
