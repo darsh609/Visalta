@@ -22,10 +22,13 @@ import StarsCanvas from "./servicespage/Stars";
 // import Sell from "./servicespage/Sell";
 import Hero from "./servicespage/Hero";
 // import { Link, animateScroll as scroll } from 'react-scroll';
-import { Login ,SignUp } from './Login';
+// import  Login   from './Login';
 import UploadItemForm from './servicespage/Sell_Item';
 import BuyPage from './servicespage/Buy';
 import Insighthome from './insights/insighthome';
+import SignUp from './Signup';
+import Login from './Login';
+
 // import DarkMode from "./components/DarkMode/DarkMode";
 // import LocomotiveScroll from 'locomotive-scroll';
 // import 'locomotive-scroll/src/locomotive-scroll.scss';
@@ -64,17 +67,18 @@ function App() {
   <div   className={`relative min-h-screen z-0 overflow-x-hidden`} >
           <Routes>
             
-            <Route path="login" element={<Login/>} />
+            {/* <Route path="login" element={<Login/>} /> */}
             {/* <Route path="signup" element={<Signup setIsLoggedIn ={setIsLoggedIn}/>} /> */}
             <Route path="signup" element = {<SignUp/>}/>
             {/* <Route path="dashboard" element = {<Dashboard/>}/> */}
-           
+           <Route path="login" element={<Login/>}/>
             
             <Route path="insight" element={<Insighthome/>}/>
             <Route path="/" element={<Home/>}/>
             <Route path="contact" element={<Contact/>}/>
             <Route path="sell" element={<UploadItemForm/>}/>
             <Route path="food" element={<Food/>}/>
+            
             <Route path="worship" element={<Worship/>}/>
             <Route path="Traverse" element={<Traverse/>}/>
             <Route path="medical" element={<Medical/>}/>
